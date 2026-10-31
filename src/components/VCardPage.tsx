@@ -391,6 +391,16 @@ export function VCardPage({
                 >
                   <Icon name="instagram" />
                 </a>
+                <a
+                  href={CONTACT.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 rounded-full bg-zinc-100 hover:bg-[#FF0000] hover:text-white text-zinc-600 flex items-center justify-center transition-colors text-xs"
+                  title="YouTube"
+                  aria-label="YouTube Channel"
+                >
+                  <Icon name="youtube" />
+                </a>
               </div>
             </div>
           </div>

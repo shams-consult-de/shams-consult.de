@@ -109,6 +109,16 @@ export interface Translations {
       norm?: string;
     }>;
   };
+  videoGuide: {
+    badge: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    takeaways: string[];
+    ctaConsultation: string;
+    ctaChannel: string;
+    privacyNote: string;
+  };
   vob: {
     badge: string;
     title: string;
@@ -705,6 +715,20 @@ export const content: Record<Language, Translations> = {
         { num: "08", name: "Objektüberwachung", desc: "Qualifizierte Bauleitung vor Ort, Qualitätskontrolle & Terminüberwachung", norm: "LBO / VOB/B" },
         { num: "09", name: "Objektbetreuung", desc: "Förmliche Bauabnahme, Mängelbeseitigung & Gewährleistungsdokumentation", norm: "BGB / VOB" },
       ],
+    },
+    videoGuide: {
+      badge: "Video-Leitfaden · Baurecht & Genehmigung",
+      title: "Ist Ihr Bauvorhaben überhaupt genehmigungsfähig?",
+      subtitle: "Praxiswissen direkt vom Architekten & Stadtplaner",
+      description: "Erfahren Sie von Dipl.-Ing. Majeed Shams, wie Sie bereits vor Grundstückskauf oder Bauantrag baurechtliche Risiken ausschließen und die Genehmigungsfähigkeit nach § 34 BauGB oder Bebauungsplan sichern.",
+      takeaways: [
+        "Baurechtliche Vorprüfung (§ 34 BauGB / Bebauungsplan)",
+        "Vorbescheid & Risikominimierung vor dem Grundstückskauf",
+        "Schneller zum genehmigten Bauantrag ohne Behördenstau",
+      ],
+      ctaConsultation: "Erstgespräch vereinbaren",
+      ctaChannel: "YouTube-Kanal besuchen",
+      privacyNote: "Datenschutz-Hinweis: Video wird im erweiterten Datenschutzmodus (youtube-nocookie.com) geladen.",
     },
     vob: {
       badge: "DE Norm",
@@ -1474,6 +1498,20 @@ export const content: Record<Language, Translations> = {
         { num: "08", name: "Site Supervision", desc: "On-site quality assurance, schedule adherence & defect control", norm: "LBO / VOB/B" },
         { num: "09", name: "Handover & Closeout", desc: "Formal commissioning, defect remediation & warranty management", norm: "BGB / VOB" },
       ],
+    },
+    videoGuide: {
+      badge: "Video Guide · Planning Law & Approvals",
+      title: "Is your construction project eligible for planning approval?",
+      subtitle: "Practical insights directly from the architect & urban planner",
+      description: "Learn from Dipl.-Ing. Majeed Shams how to evaluate building permit eligibility under German planning law (§ 34 BauGB, local zoning plans) and eliminate costly approval risks early.",
+      takeaways: [
+        "Preliminary zoning & building law assessment (§ 34 BauGB / B-Plan)",
+        "Preliminary permit enquiry (Vorbescheid) before land purchase",
+        "Accelerate building permit approvals without bureaucratic delays",
+      ],
+      ctaConsultation: "Book Consultation",
+      ctaChannel: "Visit YouTube Channel",
+      privacyNote: "Privacy Notice: Video is served in privacy-enhanced mode (youtube-nocookie.com).",
     },
     vob: {
       badge: "DE Standard",

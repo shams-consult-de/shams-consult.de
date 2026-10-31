@@ -22,6 +22,7 @@ import { openThesesData, OpenThesisTopic } from "./lib/openTheses";
 import { AkhRegistrationSection } from "./components/AkhRegistrationSection";
 import { TeamSection } from "./components/TeamSection";
 import { VobSection } from "./components/VobSection";
+import { VideoSection } from "./components/VideoSection";
 import { ClientsMovingSection } from "./components/ClientsMovingSection";
 import { ClientsPage } from "./components/ClientsPage";
 import { SiteVisitsMovingSection } from "./components/SiteVisitsMovingSection";
@@ -1417,6 +1418,15 @@ export function App() {
             {/* 6. Unified Services & 9 HOAI Leistungsphasen Section */}
             <div id="services" className="scroll-mt-24">
               <ServicesSection t={t.services} processT={t.process} />
+            </div>
+
+            {/* 6b. Architecture & Planning Law Video Guide */}
+            <div id="video-guide" className="scroll-mt-24">
+              <VideoSection
+                t={t.videoGuide}
+                language={language}
+                onBookConsultation={handleBookConsultation}
+              />
             </div>
 
             {/* 7. Dedicated Subtle VOB Compliance Section */}

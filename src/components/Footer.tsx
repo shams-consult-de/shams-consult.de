@@ -170,6 +170,16 @@ export function Footer({ t, navT, servicesT, language = "de", onNavigate }: Foot
                 >
                   <Icon name="xing" />
                 </a>
+                <a
+                  href={CONTACT.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="h-8 w-8 rounded-full border border-white/20 flex items-center justify-center text-xs text-zinc-300 hover:text-white hover:border-[#FF0000] hover:bg-[#FF0000]/10 transition-colors"
+                  aria-label="YouTube"
+                  title="YouTube"
+                >
+                  <Icon name="youtube" />
+                </a>
               </div>
             </div>
           </div>

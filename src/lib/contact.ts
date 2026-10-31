@@ -18,6 +18,12 @@ export const CONTACT = {
   instagram: "https://www.instagram.com/shams_consult/",
   facebook: "https://www.facebook.com/profile.php?id=100057398741769",
   xing: "https://www.xing.com/profile/MajeedShams_FreierArchitektundStadtplaner",
+  youtube: "https://www.youtube.com/@shams-consult",
+  featuredVideo: {
+    id: "F8NEdvixGZ8",
+    url: "https://www.youtube.com/watch?v=F8NEdvixGZ8",
+    embedUrl: "https://www.youtube-nocookie.com/embed/F8NEdvixGZ8",
+  },
   primaryAddress: {
     street: "Carl-von-Noorden-Platz 5",
     city: "60596 Frankfurt am Main",
