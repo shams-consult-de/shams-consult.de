@@ -1386,6 +1386,15 @@ export function App() {
               />
             </div>
 
+            {/* 1b. Architecture & Planning Law Video Guide */}
+            <div id="video-guide" className="scroll-mt-24">
+              <VideoSection
+                t={t.videoGuide}
+                language={language}
+                onBookConsultation={handleBookConsultation}
+              />
+            </div>
+
             {/* 2. On-Site Visits & Field Proof Moving Photo Carousel */}
             <div id="site-visits" className="scroll-mt-24">
               <SiteVisitsMovingSection
@@ -1418,15 +1427,6 @@ export function App() {
             {/* 6. Unified Services & 9 HOAI Leistungsphasen Section */}
             <div id="services" className="scroll-mt-24">
               <ServicesSection t={t.services} processT={t.process} />
-            </div>
-
-            {/* 6b. Architecture & Planning Law Video Guide */}
-            <div id="video-guide" className="scroll-mt-24">
-              <VideoSection
-                t={t.videoGuide}
-                language={language}
-                onBookConsultation={handleBookConsultation}
-              />
             </div>
 
             {/* 7. Dedicated Subtle VOB Compliance Section */}
