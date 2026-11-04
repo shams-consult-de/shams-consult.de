@@ -1,1 +1,0 @@
-delete from public.blog_comments where author_name like 'E2E %';
