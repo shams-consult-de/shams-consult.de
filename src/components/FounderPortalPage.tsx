@@ -2,6 +2,7 @@ import { useState, useEffect, useId, useMemo } from "react";
 import { Language } from "../lib/i18n";
 import { portalClients, PortalClient, PortalFile } from "../data/flyers";
 import { FlyerViewerModal } from "./flyers";
+import { envConfig } from "../config/env";
 
 interface FounderPortalPageProps {
   language: Language;
@@ -16,10 +17,8 @@ export function FounderPortalPage({
   const isDe = language === "de";
   const passwordInputId = useId();
 
-  // Password read from Vite environment variables with a safe fallback
-  const configuredPassword = (
-    import.meta.env.VITE_FOUNDER_PORTAL_PASSWORD || "shams2026!"
-  ).trim();
+  // Password read strictly from centralized env config (zero hardcoded fallback)
+  const configuredPassword = envConfig.founderPortalPassword;
 
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
   const [passwordInput, setPasswordInput] = useState<string>("");

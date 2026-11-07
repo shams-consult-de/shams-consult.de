@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "generate:pdf": "node --experimental-strip-types scripts/generate-portfolio-pdf.mjs",
     "prepare:documents": "node --experimental-strip-types scripts/prepare-portal-documents.mjs",
-    "build": "node --experimental-strip-types scripts/prepare-portal-documents.mjs && vite build && node --experimental-strip-types scripts/generate-static-routes.mjs",
+    "build": "node --experimental-strip-types scripts/prepare-portal-documents.mjs && node --experimental-strip-types scripts/generate-portfolio-pdf.mjs && vite build && node --experimental-strip-types scripts/generate-static-routes.mjs",
     "build:dev": "vite build --mode development",
     "optimize:images": "node scripts/optimize-images.mjs",
     "preview": "vite preview",
