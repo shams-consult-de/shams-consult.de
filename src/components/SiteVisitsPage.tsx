@@ -64,7 +64,7 @@ export function SiteVisitsPage({
           </div>
         </div>
 
-        {/* 7-Photo Proof Gallery Grid */}
+        {/* Authentic Photo Proof Gallery Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
           {t.items.map((item, idx) => (
             <div
@@ -115,7 +115,7 @@ export function SiteVisitsPage({
 
                 <div className="pt-3 border-t border-zinc-100 flex items-center justify-between">
                   <span className="text-[11px] font-mono text-zinc-400">
-                    {t.photoRecordLabel} 0{idx + 1} / 0{t.items.length}
+                    {t.photoRecordLabel} {String(idx + 1).padStart(2, "0")} / {String(t.items.length).padStart(2, "0")}
                   </span>
                   <button
                     type="button"

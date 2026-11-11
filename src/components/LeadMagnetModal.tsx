@@ -22,11 +22,15 @@ export function LeadMagnetModal({
   const [submitted, setSubmitted] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const [emailError, setEmailError] = useState("");
+  const [phoneError, setPhoneError] = useState("");
 
   const isControlled = typeof controlledIsOpen === "boolean";
   const isOpen = isControlled ? controlledIsOpen : internalIsOpen;
 
   const handleClose = useCallback(() => {
+    setEmailError("");
+    setPhoneError("");
+    setErrorMessage("");
     if (isControlled && controlledOnClose) {
       controlledOnClose();
     } else {
@@ -102,10 +106,39 @@ export function LeadMagnetModal({
     return emailRegex.test(val.trim());
   };
 
+  const validatePhone = (val: string) => {
+    const trimmed = val.trim();
+    if (!trimmed) return true; // Optional field: passes if blank
+
+    // Allowed characters: leading '+' or '00', digits, spaces, hyphens, slashes, parentheses, dots
+    const allowedCharsRegex = /^(\+|00)?[0-9\s/().-]+$/;
+    if (!allowedCharsRegex.test(trimmed)) {
+      return false;
+    }
+
+    // Extract raw digits
+    const digitsOnly = trimmed.replace(/\D/g, "");
+
+    // Must be between 6 digits (shortest valid landline) and 15 digits (ITU-T E.164 max)
+    if (digitsOnly.length < 6 || digitsOnly.length > 15) {
+      return false;
+    }
+
+    // Reject obvious dummy inputs (all identical digits like 0000000 or 1111111)
+    if (/^(\d)\1+$/.test(digitsOnly)) {
+      return false;
+    }
+
+    return true;
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMessage("");
     setEmailError("");
+    setPhoneError("");
+
+    let hasError = false;
 
     if (!email.trim() || !validateEmail(email)) {
       setEmailError(
@@ -113,6 +146,19 @@ export function LeadMagnetModal({
           ? "Please provide a valid email address."
           : "Bitte geben Sie eine gültige E-Mail-Adresse an."
       );
+      hasError = true;
+    }
+
+    if (phone.trim() && !validatePhone(phone)) {
+      setPhoneError(
+        language === "en"
+          ? "Please provide a valid phone number (e.g. +49 176 12345678 or 069 74223777)."
+          : "Bitte geben Sie eine gültige Telefonnummer ein (z. B. 0176 12345678 oder +49 69 74223777)."
+      );
+      hasError = true;
+    }
+
+    if (hasError) {
       return;
     }
 
@@ -221,13 +267,15 @@ export function LeadMagnetModal({
                   setEmail(e.target.value);
                   if (emailError) setEmailError("");
                 }}
+                aria-invalid={Boolean(emailError)}
+                aria-describedby={emailError ? "lead-email-error" : undefined}
                 placeholder={isDe ? "ihre.adresse@unternehmen.de" : "your.name@company.com"}
                 className={`w-full px-3.5 py-3 rounded-xl bg-zinc-900/90 border ${
                   emailError ? "border-red-500" : "border-white/15 focus:border-red-500"
                 } text-white text-xs sm:text-sm placeholder-zinc-500 focus:outline-none transition-colors`}
               />
               {emailError && (
-                <p className="text-[11px] text-red-400 mt-1">{emailError}</p>
+                <p id="lead-email-error" className="text-[11px] text-red-400 mt-1">{emailError}</p>
               )}
             </div>
 
@@ -247,10 +295,20 @@ export function LeadMagnetModal({
                 id="lead-phone-input"
                 type="tel"
                 value={phone}
-                onChange={(e) => setPhone(e.target.value)}
+                onChange={(e) => {
+                  setPhone(e.target.value);
+                  if (phoneError) setPhoneError("");
+                }}
+                aria-invalid={Boolean(phoneError)}
+                aria-describedby={phoneError ? "lead-phone-error" : undefined}
                 placeholder={isDe ? "z. B. 0176 12345678" : "+49 176 12345678"}
-                className="w-full px-3.5 py-3 rounded-xl bg-zinc-900/90 border border-white/15 focus:border-red-500 text-white text-xs sm:text-sm placeholder-zinc-500 focus:outline-none transition-colors"
+                className={`w-full px-3.5 py-3 rounded-xl bg-zinc-900/90 border ${
+                  phoneError ? "border-red-500" : "border-white/15 focus:border-red-500"
+                } text-white text-xs sm:text-sm placeholder-zinc-500 focus:outline-none transition-colors`}
               />
+              {phoneError && (
+                <p id="lead-phone-error" className="text-[11px] text-red-400 mt-1">{phoneError}</p>
+              )}
             </div>
 
             {errorMessage && (
