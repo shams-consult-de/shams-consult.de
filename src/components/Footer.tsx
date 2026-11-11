@@ -129,6 +129,20 @@ export function Footer({ t, navT, servicesT, language = "de", onNavigate }: Foot
                 </a>
               </div>
 
+              <div>
+                <button
+                  type="button"
+                  onClick={() => window.dispatchEvent(new CustomEvent("open-brochure-modal"))}
+                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 hover:border-red-500/40 text-xs text-zinc-300 hover:text-white transition-all group cursor-pointer text-left"
+                >
+                  <Icon name="file-text" className="text-[#DC2626] group-hover:scale-110 transition-transform" />
+                  <span className="font-medium">
+                    {language === "en" ? "Portfolio Brochure (PDF)" : "Portfolio-Broschüre (PDF)"}
+                  </span>
+                  <span className="text-[10px] text-zinc-500 group-hover:text-zinc-300">↓</span>
+                </button>
+              </div>
+
               <div className="flex flex-wrap items-center gap-2.5 pt-1">
                 <a
                   href={CONTACT.linkedin}

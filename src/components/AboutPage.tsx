@@ -49,14 +49,6 @@ export function AboutPage({
         : "Bachelor of Engineering · Civil Engineering Darmstadt University of Applied Sciences",
     },
     {
-      name: "Yasmine Yagcioglu (Dipl.-Ing. FH)",
-      role: isDe ? "Architektur" : "Architecture",
-      image: "/images/team/Yasmine-Yagcioglu.jpg",
-      credentials: isDe
-        ? "Architekturstudium Hochschule Mainz – University of Applied Sciences 2011"
-        : "Architecture Degree Mainz University of Applied Sciences 2011",
-    },
-    {
       name: "Ronak Namdari (M.A.)",
       role: isDe ? "Architektur & Konzeptentwurf" : "Architecture & Conceptual Design",
       image: "/images/team/Ronak-Namdari.png",

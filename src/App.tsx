@@ -34,6 +34,7 @@ import { DesktopStickyActionBar } from "./components/DesktopStickyActionBar";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 import { LegalModal, LegalModalType } from "./components/LegalModal";
+import { LeadMagnetModal } from "./components/LeadMagnetModal";
 import { LegalPage, LegalPageType } from "./components/LegalPage";
 import { NotFoundPage } from "./components/NotFoundPage";
 import { CookieBanner } from "./components/CookieBanner";
@@ -1504,8 +1505,9 @@ export function App() {
         onNavigate={navigateTo}
       />
 
-      {/* 9. Frictionless Legal Modals */}
+      {/* 9. Frictionless Legal Modals & Brochure Lead Magnet */}
       <LegalModal type={legalModal} language={language} onClose={() => setLegalModal(null)} />
+      <LeadMagnetModal language={language} />
 
       {/* 10. Science-Backed Mobile Sticky Quick-Action Bar (Thumb Zone) */}
       {!isVCardPage && (
