@@ -19,7 +19,6 @@ export function TeamSection({ t, onNavigateAbout }: TeamSectionProps) {
     { name: "Dipl.-Ing. Majeed Shams", img: "/images/team/Majeed-Shams.jpg" },
     { name: "Hatice Erol Yeniyapan", img: "/images/team/Hatice-Erol-Yeniyapan.jpg" },
     { name: "Samuel Allaw", img: "/images/team/Samuel-Allaw.png" },
-    { name: "Yasmine Yagcioglu", img: "/images/team/Yasmine-Yagcioglu.jpg" },
     { name: "Ronak Namdari", img: "/images/team/Ronak-Namdari.png" },
     { name: "Farhad Minaei", img: "/images/team/Farhad-Minaei.png" },
   ];

@@ -93,28 +93,6 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Yasmine Yagcioglu",
-    role: {
-      de: "Dipl.-Ing. (FH) Architektur",
-      en: "Architect, Dipl.-Ing. (FH)",
-    },
-    image: "/images/team/Yasmine-Yagcioglu.jpg",
-    highlightBadge: {
-      de: "Ausführungsplanung",
-      en: "Detailed Design",
-    },
-    lines: {
-      de: [
-        "Architekturstudium Hochschule Mainz — University of Applied Sciences, 2011",
-        "Fokus auf Detail- & Werkplanung (LPH 5), Bauantragsvorbereitung und Behördenabstimmung",
-      ],
-      en: [
-        "Architecture degree Mainz University of Applied Sciences, 2011",
-        "Focus on working drawings & detail design (HOAI Phase 5), permit submissions & authority alignment",
-      ],
-    },
-  },
-  {
     name: "Ronak Namdari (M.A.)",
     role: {
       de: "Master of Arts in Architecture",
