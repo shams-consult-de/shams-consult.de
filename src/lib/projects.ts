@@ -14,24 +14,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "mehrfamilienhaus-dreieich-goetzenhain",
-    title: "Mehrfamilienhaus Dreieich-Götzenhain",
-    location: "Dreieich (Rhein-Main)",
-    year: "2021–2024",
-    category: "Wohnungsbau",
-    scope: "LPH 1–8 HOAI · Neubau & Tiefgarage",
-    highlight: "Effizienz & Baugenehmigung",
-    image: "/images/image-3a7a9c.jpg",
-    imageAlt: "Neubau Mehrfamilienhaus in Dreieich Götzenhain",
-    description:
-      "Neubau eines dreistöckigen Mehrfamilienhauses mit barrierefreien Wohneinheiten, großzügigen Balkonen und integrierter Tiefgarage. Erfolgreiche Genehmigung trotz anspruchsvoller Geländetopografie und strenger Baumschutzauflagen.",
-    stats: [
-      { label: "Einheiten", value: "Mehrfamilienhaus" },
-      { label: "Besonderheit", value: "Tiefgarage & Baumbestand" },
-      { label: "Region", value: "Kreis Offenbach / FFM" },
-    ],
-  },
-  {
     slug: "netto-supermarkt-muenster-hessen",
     title: "„Netto“-Nahversorgungszentrum & 22 Wohnungen",
     location: "Münster (Hessen)",
@@ -50,6 +32,24 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "lagerhalle-feinkost-fleischverarbeitung",
+    title: "Produktions- & Logistikhalle Lebensmittel",
+    location: "Süddeutschland",
+    year: "2019–2021",
+    category: "Gewerbe & Mischnutzung",
+    scope: "LPH 1–8 HOAI · Gewerbebau & Hygieneauflagen",
+    highlight: "Industrie- & Gewerbebau",
+    image: "/images/image-35c767.jpg",
+    imageAlt: "Lagerhalle für Feinkost und Fleischverarbeitung",
+    description:
+      "Planung und Überwachung einer modernen Produktions- und Lagerhalle für Feinkostverarbeitung mit strengsten Hygiene-, Kühlketten- und Brandschutzanforderungen.",
+    stats: [
+      { label: "Branche", value: "Lebensmittelindustrie" },
+      { label: "Anforderung", value: "HACCP & Kühltechnik" },
+      { label: "Typ", value: "Industrie & Logistik" },
+    ],
+  },
+  {
     slug: "bebauungsplan-toepfenmuehle-gersfeld",
     title: "Bebauungsplan „Töpfenmühle“ Gersfeld (Rhön)",
     location: "Gersfeld (Rhön)",
@@ -65,24 +65,6 @@ export const projects: Project[] = [
       { label: "Verfahren", value: "§ 30 Abs. 1 BauGB" },
       { label: "Umwelt", value: "Umweltbericht & Artenschutz" },
       { label: "Auftraggeber", value: "Kommune / Träger" },
-    ],
-  },
-  {
-    slug: "einfamilienhaus-lingen-ems",
-    title: "Exklusive Stadtvilla / Einfamilienhaus",
-    location: "Lingen (Ems)",
-    year: "2021",
-    category: "Wohnungsbau",
-    scope: "LPH 1–8 HOAI · Vollständige Bauleitung",
-    highlight: "Privater Bauherr",
-    image: "/images/image-09c215.jpg",
-    imageAlt: "Realisierung Einfamilienhaus Lingen",
-    description:
-      "Individuelle architektonische Maßanfertigung von den ersten Entwurfsskizzen über den Bauantrag bis zur Schlüsselübergabe. Bodentiefe Glasfronten, offene Raumzonierung und hocheffiziente Haustechnik.",
-    stats: [
-      { label: "Typ", value: "Individuelles Einfamilienhaus" },
-      { label: "Leistung", value: "LPH 1–8 HOAI schlüsselfertig" },
-      { label: "Bauweise", value: "Energieeffizienter Massivbau" },
     ],
   },
   {
@@ -122,6 +104,24 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "mehrfamilienhaus-dreieich-goetzenhain",
+    title: "Mehrfamilienhaus Dreieich-Götzenhain",
+    location: "Dreieich (Rhein-Main)",
+    year: "2021–2024",
+    category: "Wohnungsbau",
+    scope: "LPH 1–8 HOAI · Neubau & Tiefgarage",
+    highlight: "Effizienz & Baugenehmigung",
+    image: "/images/image-3a7a9c.jpg",
+    imageAlt: "Neubau Mehrfamilienhaus in Dreieich Götzenhain",
+    description:
+      "Neubau eines dreistöckigen Mehrfamilienhauses mit barrierefreien Wohneinheiten, großzügigen Balkonen und integrierter Tiefgarage. Erfolgreiche Genehmigung trotz anspruchsvoller Geländetopografie und strenger Baumschutzauflagen.",
+    stats: [
+      { label: "Einheiten", value: "Mehrfamilienhaus" },
+      { label: "Besonderheit", value: "Tiefgarage & Baumbestand" },
+      { label: "Region", value: "Kreis Offenbach / FFM" },
+    ],
+  },
+  {
     slug: "qs-nachhaltiges-gebaeude-goetzenhain",
     title: "Qualitätssiegel Nachhaltiges Gebäude (QNG)",
     location: "Dreieich-Götzenhain",
@@ -140,21 +140,21 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "lagerhalle-feinkost-fleischverarbeitung",
-    title: "Produktions- & Logistikhalle Lebensmittel",
-    location: "Süddeutschland",
-    year: "2019–2021",
-    category: "Gewerbe & Mischnutzung",
-    scope: "LPH 1–8 HOAI · Gewerbebau & Hygieneauflagen",
-    highlight: "Industrie- & Gewerbebau",
-    image: "/images/image-35c767.jpg",
-    imageAlt: "Lagerhalle für Feinkost und Fleischverarbeitung",
+    slug: "einfamilienhaus-lingen-ems",
+    title: "Exklusive Stadtvilla / Einfamilienhaus",
+    location: "Lingen (Ems)",
+    year: "2021",
+    category: "Wohnungsbau",
+    scope: "LPH 1–8 HOAI · Vollständige Bauleitung",
+    highlight: "Privater Bauherr",
+    image: "/images/image-09c215.jpg",
+    imageAlt: "Realisierung Einfamilienhaus Lingen",
     description:
-      "Planung und Überwachung einer modernen Produktions- und Lagerhalle für Feinkostverarbeitung mit strengsten Hygiene-, Kühlketten- und Brandschutzanforderungen.",
+      "Individuelle architektonische Maßanfertigung von den ersten Entwurfsskizzen über den Bauantrag bis zur Schlüsselübergabe. Bodentiefe Glasfronten, offene Raumzonierung und hocheffiziente Haustechnik.",
     stats: [
-      { label: "Branche", value: "Lebensmittelindustrie" },
-      { label: "Anforderung", value: "HACCP & Kühltechnik" },
-      { label: "Typ", value: "Industrie & Logistik" },
+      { label: "Typ", value: "Individuelles Einfamilienhaus" },
+      { label: "Leistung", value: "LPH 1–8 HOAI schlüsselfertig" },
+      { label: "Bauweise", value: "Energieeffizienter Massivbau" },
     ],
   },
 ];
