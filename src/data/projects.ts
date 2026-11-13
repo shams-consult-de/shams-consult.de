@@ -150,6 +150,66 @@ export const rawProjects: Project[] = [
     },
   },
   {
+    id: "netto-supermarkt-muenster-hessen",
+    slug: "netto-supermarkt-muenster-hessen",
+    publishedDate: "2023-03-20",
+    category: "commercial",
+    categoryLabel: {
+      de: "Mischnutzung & Ausführungsplanung",
+      en: "Mixed-Use & Working Drawings",
+    },
+    title: {
+      de: "„Netto“ Supermarkt & 22 Wohnungen, Münster (Hessen)",
+      en: "'Netto' Supermarket & 22 Apartments, Muenster (Hesse)",
+    },
+    subtitle: {
+      de: "Ausführungsplanung (LPH 5) für Nahversorgungszentrum, 22 Wohnungen, Tiefgarage und grünen Innenhof",
+      en: "Execution Planning (Phase 5) for Commercial Center, 22 Apartments, Underground Parking and Green Courtyard",
+    },
+    location: {
+      de: "Münster (Hessen)",
+      en: "Muenster (Hesse)",
+    },
+    client: {
+      de: "Gewerblicher Projektentwickler",
+      en: "Commercial Real Estate Developer",
+    },
+    legalBasis: "HBO / Baugenehmigung (LPH 5 Ausführungsplanung)",
+    year: "2023",
+    image: "/images/image-37e42d.jpg",
+    imageAlt: "Ausführungsplanung und Realisierung Netto Supermarkt, 22 Wohnungen und einer Tiefgarage",
+    overview: {
+      de: "Umfassende Ausführungsplanung und bauliche Realisierung eines modernen Nahversorgungszentrums mit „Netto“-Supermarkt im Erdgeschoss, 22 Wohneinheiten in den Obergeschossen, Tiefgarage und einem begrünten Dachinnenhof.",
+      en: "Detailed working drawings (LPH 5) and construction management for a mixed-use retail hub featuring a ground-floor Netto supermarket, 22 residential units above, underground parking, and a landscaped rooftop courtyard.",
+    },
+    challenge: {
+      de: "Komplexe statische und schallschutztechnische Entkopplung zwischen gewerblicher Supermarktnutzung (Lieferverkehr, Kundenfrequenz) und den darüberliegenden ruhigen Wohnungen.",
+      en: "Complex acoustic and structural decoupling between the high-traffic ground-floor supermarket and the quiet residential units on upper floors.",
+    },
+    concept: {
+      de: "Präzise Werk- und Detailplanung aller Bauteile, integrale Haustechnikkoordination, optimierte Tiefgaragenlogistik und ein geschützter grüner Innenhof als privater Aufenthaltsbereich für Bewohner.",
+      en: "Precision technical working drawings, integrated MEP coordination, optimized parking logistics, and a secluded green courtyard for residents.",
+    },
+    outcome: {
+      de: "Erfolgreiche termingerechte Realisierung und nahtlose Inbetriebnahme des Nahversorgungszentrums.",
+      en: "Successful on-time construction and seamless handover of the retail and residential center.",
+    },
+    keyFacts: {
+      de: [
+        "Ausführungsplanung (LPH 5 HOAI)",
+        "Nahversorgungszentrum mit Supermarkt",
+        "22 moderne Wohneinheiten",
+        "Tiefgarage & begrünter Innenhof",
+      ],
+      en: [
+        "Working Drawings (Phase 5 HOAI)",
+        "Retail Center with Supermarket",
+        "22 Modern Residential Units",
+        "Underground Parking & Green Courtyard",
+      ],
+    },
+  },
+  {
     id: "neubau-buerogebaeude-adler-seeheim-jugenheim",
     slug: "neubau-buerogebaeude-adler-seeheim-jugenheim",
     publishedDate: "2026-09-12",
@@ -213,561 +273,62 @@ export const rawProjects: Project[] = [
     blogSlug: "wirtschaftliche-umsetzung-nachhaltiger-projekte",
   },
   {
-    id: "regenwasser-rigole-wohnanlage",
-    slug: "regenwasser-rigole-wohnanlage",
-    publishedDate: "2025-01-20",
-    category: "sustainability",
-    categoryLabel: {
-      de: "Nachhaltiges Bauen & Außenanlagen",
-      en: "Sustainable Drainage & Landscape",
-    },
-    title: {
-      de: "Modulare Versickerungsrigole & Außenanlagen für Wohnanlage",
-      en: "Modular Stormwater Infiltration Rigole & Residential Infrastructure",
-    },
-    subtitle: {
-      de: "Dezentrales Regenwassermanagement (Schwammstadt), Retentionsrigole & Hofneugestaltung gem. DIN 1986-100 & DWA-A 138",
-      en: "Decentralized stormwater management (Sponge City), mineral infiltration rigole & courtyard redevelopment under DIN 1986-100 & DWA-A 138",
-    },
-    location: {
-      de: "Rhein-Main-Gebiet (Hessen)",
-      en: "Rhine-Main Region (Hesse)",
-    },
-    client: {
-      de: "Wohnungsbaugesellschaft & Private Bauträgergesellschaft",
-      en: "Residential Housing Developer & Property Management",
-    },
-    legalBasis: "DIN 1986-100, DWA-A 138 & HOAI LPH 1–8 (Objektüberwachung)",
-    year: "2024–2025",
-    image: "/images/projects/shams-versickerungsrigole-regenwasser-aushub.jpg",
-    imageAlt: "Modulare Versickerungsrigole mit Retentionsblöcken im Wohnungsbau, Architekturbüro Shams Consult",
-    gallery: [
-      {
-        image: "/images/projects/shams-versickerungsrigole-regenwasser-aushub.jpg",
-        title: {
-          de: "Erdaushub & Rigolen-Unterbau",
-          en: "Excavation Pit & Sub-base Preparation",
-        },
-        desc: {
-          de: "Präziser maschineller Aushub der Baugrube und Einbau der ersten Lage mineralischer Retentions- und Sickerblöcke.",
-          en: "Precision mechanical excavation and placement of high-capacity modular mineral retention blocks.",
-        },
-      },
-      {
-        image: "/images/projects/shams-rigolenversickerung-anschluss-leitungen.jpg",
-        title: {
-          de: "Zulaufverrohrung & Kanalanschlüsse",
-          en: "Inflow Conduits & Pipework Interconnection",
-        },
-        desc: {
-          de: "Verlegung und luftdichter Anschluss der grünen KG-Zufluss- und Überlaufrohre an den Rigolenkörper für Starkregenereignisse.",
-          en: "Installation and sealed connection of drainage and overflow pipes directly to the attenuation core.",
-        },
-      },
-      {
-        image: "/images/projects/shams-retentionsbloecke-mineralwolle-rigole.jpg",
-        title: {
-          de: "Modulare Retentionsblöcke vor Ort",
-          en: "Modular Mineral Retention Blocks On-Site",
-        },
-        desc: {
-          de: "Hochverdichtete Steinwolle-Rigolenkörper mit werkseitigen Rohrdurchführungen für maximale Wasserspeicherkapazität.",
-          en: "Dense mineral-based infiltration blocks with pre-drilled conduit channels providing maximum water absorption.",
-        },
-      },
-      {
-        image: "/images/projects/shams-wohnanlage-aussenanlagen-pflasterbau.jpg",
-        title: {
-          de: "Baugrubensicherung & Oberflächenherstellung",
-          en: "Site Safety & Surface Reinstatement",
-        },
-        desc: {
-          de: "Bauzaunsicherung, Schottertragschichtverdichtung mit Baumaschinen und Vorbereitung der Pflaster- und Hofzufahrten.",
-          en: "Perimeter safety fencing, mechanized gravel compaction, and subgrade preparation for residential paving.",
-        },
-      },
-    ],
-    overview: {
-      de: "Planung, Dimensionierung und bauleitende Begleitung einer hochmodernen, modularen Rigolenversickerungsanlage für ein Mehrfamilienhaus-Ensemble im Rhein-Main-Gebiet. Ziel des Projekts war die vollständige dezentrale Versickerung des anfallenden Niederschlagswassers direkt auf dem Grundstück nach dem Schwammstadt-Prinzip, um das öffentliche Kanalnetz bei Starkregenereignissen zu 100 % zu entlasten und dauerhaft Niederschlagswassergebühren einzusparen.",
-      en: "Planning, hydraulic sizing, and full on-site construction supervision for an advanced modular stormwater infiltration rigole serving a residential multi-family complex in the Rhine-Main region. Guided by the Sponge City principle, the system ensures 100% on-site rainwater infiltration, decoupling the property from municipal sewers during extreme weather and sustainably reducing stormwater fees.",
-    },
-    challenge: {
-      de: "Begrenzter Raum im Innenhof- und Garagenbereich bei gleichzeitig hohen Spitzenabflussmengen durch großflächige Dach- und Zufahrtsflächen. Zudem erforderte der anstehende Boden eine exakte bodenmechanische und hydrogeologische Berechnung der Versickerungsleistung gem. DWA-A 138 sowie eine statisch hochbelastbare Überfahrbarkeit durch Pkw und Lieferverkehr.",
-      en: "Tight spatial constraints between garages and courtyard access combined with high peak runoff from roof and paved surfaces. The site demanded precise hydrogeological percolation calculations under DWA-A 138 and a heavy-duty structural load capacity for vehicle traffic.",
-    },
-    concept: {
-      de: "Einbau eines hocheffizienten, modularen Rigolensystems aus mineralischen Retentionsblöcken mit extrem hoher Hohlraumquote (> 95 %). Die vorkonfektionierten Blöcke nehmen Niederschlagswasser schlagartig auf und geben es zeitverzögert und gefiltert an das umliegende Erdreich ab. Ein mehrstufiges Filtersystem mit Schlammfängen verhindert das Zusetzen der Sickerporen.",
-      en: "Installation of a modular mineral retention rigole offering over 95% void volume for instantaneous water uptake and controlled, filtered subsoil percolation. Upstream silt traps and multi-stage sediment filters prevent pore clogging and guarantee decades of maintenance-free operation.",
-    },
-    outcome: {
-      de: "Erfolgreiche technische Abnahme und mängelfreie Inbetriebnahme der Anlage. Vollständige Abkopplung der Hofflächen vom Mischwasserkanal, nachhaltige Grundwasserneubildung vor Ort und deutliche Reduzierung der laufenden kommunalen Entwässerungsgebühren für die Eigentümergemeinschaft.",
-      en: "Successful technical handover with zero defects. Complete decoupling of paved areas from the municipal combined sewer, on-site groundwater replenishment, and significant long-term municipal drainage fee savings for the owners.",
-    },
-    keyFacts: {
-      de: [
-        "100% dezentrale Regenwasserversickerung (Schwammstadt-Prinzip)",
-        "Modulare mineralische Retentionsblöcke mit > 95% Hohlraumvolumen",
-        "Vollständige Entlastung des kommunalen Kanalnetzes bei Starkregen",
-        "HOAI Leistungsphasen 1–8 inkl. Vor-Ort-Bauüberwachung & Abnahme",
-        "Dauerhafte Ersparnis bei kommunalen Niederschlagswassergebühren",
-      ],
-      en: [
-        "100% decentralized on-site stormwater infiltration (Sponge City principle)",
-        "Modular mineral infiltration blocks with > 95% void capacity",
-        "Complete relief of municipal sewer infrastructure during heavy storms",
-        "HOAI project phases 1–8 including full on-site supervision & certification",
-        "Permanent operational savings on municipal rainwater drainage fees",
-      ],
-    },
-    externalReferenceUrl:
-      "https://www.hna.de/lokales/rotenburg-bebra/bebra-ort46578/bebra-it-rechenzentrum-bau-projekt-plan-konzept-idee-investition-news-94362529.html",
-    externalReferenceTitle: {
-      de: "HNA-Pressebericht: Rechenzentrum & Bau-Projekt Bebra",
-      en: "HNA Press Article: Data Center & Construction Project Bebra",
-    },
-    blogSlug: "wirtschaftliche-umsetzung-nachhaltiger-projekte",
-  },
-  {
-    id: "vep-maienweg-ulm",
-    slug: "vep-maienweg-ulm",
-    publishedDate: "2023-11-10",
-    category: "urban-planning",
-    categoryLabel: {
-      de: "Vorhabenbezogener Bebauungsplan",
-      en: "Project-Based Zoning Plan",
-    },
-    title: {
-      de: "Vorhabenbezogener Bebauungsplan „Maienweg 2“, Ulm",
-      en: "Project-Based Zoning Plan 'Maienweg 2', Ulm",
-    },
-    subtitle: {
-      de: "Innerstädtische Nachverdichtung gem. § 12 / § 13a BauGB im Stadtteil Söflingen",
-      en: "Urban Infill Development under § 12 / § 13a BauGB in Ulm-Söflingen",
-    },
-    location: {
-      de: "Ulm (Söflingen), Baden-Württemberg",
-      en: "Ulm (Soeflingen), Baden-Wuerttemberg",
-    },
-    client: {
-      de: "Göttfried Projektbau GmbH (Neu-Ulm) in Kooperation mit Planungsbüro Obermeier+Traub",
-      en: "Göttfried Projektbau GmbH in cooperation with Obermeier+Traub Planning Practice",
-    },
-    legalBasis: "§ 12 Abs. 2 BauGB i.V.m. § 13a BauGB (Bebauungsplan der Innenentwicklung)",
-    year: "2023",
-    image: "/images/image-0996f8.jpg",
-    imageAlt: "Vorhabenbezogener Bebauungsplan Maienweg 2 Ulm, Architekturbüro Shams Consult",
-    overview: {
-      de: "Umfassende städtebauliche Neugestaltung eines Grundstücks im Ulmer Stadtteil Söflingen. Der bis dahin geltende Bebauungsplan „Harthauser Straße“ von 1971 war veraltet. Im Rahmen eines vorhabenbezogenen Bebauungsplans der Innenentwicklung (§ 13a BauGB) wurde das alte Einfamilienhaus abgerissen und durch ein harmonisches Ensemble aus Einzel- und Doppelhausbebauung ersetzt.",
-      en: "Comprehensive urban redevelopment of a residential plot in Ulm-Söflingen. The outdated 1971 master plan was superseded by a project-based zoning plan for inner development (§ 13a BauGB), replacing an obsolete single-family home with a modern ensemble of a single-family house and a semi-detached house.",
-    },
-    challenge: {
-      de: "Das Grundstück war zwischenzeitlich aufgeteilt worden und das bestehende zweigeschossige Einfamilienhaus entsprach nicht mehr den aktuellen Planungsrichtlinien. Erforderlich war die Aufstellung eines vorhabenbezogenen Bebauungsplans nach § 12 Abs. 2 BauGB zur geordneten städtebaulichen Nachverdichtung.",
-      en: "The plot had been subdivided over time and the existing structure no longer met planning guidelines. A project-based zoning plan under § 12 (2) BauGB was required to legally steer orderly urban densification.",
-    },
-    concept: {
-      de: "Abriss des Bestandsgebäudes und Errichtung von zwei unabhängigen, zweigeschossigen Wohngebäuden mit Dachgeschoss (ein Einzelhaus und ein Doppelhaus). Die Baukörper fügen sich maßstäblich in die gewachsene Umgebung ein. Ein integrales Erschließungs- und Stellplatzkonzept wahrt die Gebietseigenart.",
-      en: "Demolition of the existing building and construction of two independent two-story residential buildings with attics (one detached house and one semi-detached house), harmoniously scaled into the neighborhood with integrated on-site parking.",
-    },
-    outcome: {
-      de: "Rechtskräftiger Satzungsbeschluss des Bebauungsplans durch den Gemeinderat der Stadt Ulm. Vorbildhafte innerstädtische Nachverdichtung mit gesicherter Erschließung und Aufwertung des Ortsbildes.",
-      en: "Legally enacted binding zoning statute by the City Council of Ulm, achieving exemplary urban infill with secure access and architectural enhancement.",
-    },
-    keyFacts: {
-      de: [
-        "Bebauungsplan der Innenentwicklung gem. § 13a BauGB",
-        "Realisierung von 1 Einzelhaus + 1 Doppelhaus",
-        "Aufwertung des Ortsbilds in Ulm-Söflingen",
-        "Vollständiger Vorhaben- und Erschließungsplan (VEP)",
-      ],
-      en: [
-        "Inner Development Plan under § 13a BauGB",
-        "1 Detached House + 1 Semi-Detached House",
-        "Townscape Enhancement in Ulm-Soeflingen",
-        "Complete Project & Infrastructure Plan (VEP)",
-      ],
-    },
-    documents: [
-      {
-        title: "Vorhabenbezogener Bebauungsplan 'Maienweg 2' — Textliche Festsetzungen (PDF)",
-        url: "https://www.ulm.de/-/media/ulm/sub/sub-i/downloads/bplaene-rechtskraeftig/vorhabenbezogener-bebauungsplan-maienweg-2/bplantextlfests-anl23maienwegmitgd.pdf",
-        size: "3.65 MB",
-      },
-      {
-        title: "Begründung zum Bebauungsplan 'Maienweg 2' (PDF)",
-        url: "https://www.ulm.de/-/media/ulm/sub/sub-i/downloads/bplaene-rechtskraeftig/vorhabenbezogener-bebauungsplan-maienweg-2/anlage-4-begrndung.pdf",
-        size: "0.12 MB",
-      },
-      {
-        title: "Vorhaben- und Erschließungsplan (VEP) 'Maienweg 2' (PDF)",
-        url: "https://www.ulm.de/-/media/ulm/sub/sub-i/downloads/bplaene-rechtskraeftig/vorhabenbezogener-bebauungsplan-maienweg-2/anlage-5-vorhaben--und-erschlieungsplne.pdf",
-        size: "6.34 MB",
-      },
-      {
-        title: "Öffentliche Bekanntmachung Stadt Ulm (PDF)",
-        url: "https://www.ulm.de/-/media/ulm/sub/sub-i/downloads/bplaene-rechtskraeftig/vorhabenbezogener-bebauungsplan-maienweg-2/verffentlichung-swp.pdf",
-        size: "0.65 MB",
-      },
-    ],
-    externalReferenceUrl:
-      "https://www.ulm.de/leben-in-ulm/bauen-und-wohnen/rund-ums-bauen/bebauungsplan/rechtsverbindliche-bebauungsplaene",
-  },
-  {
-    id: "bebauungsplan-toepfenmuehle-gersfeld",
-    slug: "bebauungsplan-toepfenmuehle-gersfeld",
-    publishedDate: "2023-08-15",
-    category: "urban-planning",
-    categoryLabel: {
-      de: "Bauleitplanung",
-      en: "Urban Master Planning",
-    },
-    title: {
-      de: "Bebauungsplan „Töpfenmühle“, Gersfeld (Rhön)",
-      en: "Zoning Plan 'Toepfenmuehle', Gersfeld (Rhoen)",
-    },
-    subtitle: {
-      de: "Qualifizierter Bebauungsplan gem. § 30 Abs. 1 BauGB mit Umweltprüfung und Artenschutz",
-      en: "Qualified Master Plan under § 30 (1) BauGB with Environmental and Species Impact Assessment",
-    },
-    location: {
-      de: "Gersfeld (Rhön), Hessen",
-      en: "Gersfeld (Rhoen), Hesse",
-    },
-    client: {
-      de: "Stadt Gersfeld (Rhön)",
-      en: "Municipality of Gersfeld (Rhoen)",
-    },
-    legalBasis: "§ 30 Abs. 1 BauGB i.V.m. § 2 Abs. 4 BauGB (Umweltbericht & Artenschutz)",
-    year: "2023",
-    image: "/images/image-f22e9f.jpg",
-    imageAlt: "Begründung Bebauungsplan Töpfenmühle Gersfeld (Rhön), Verfahrensstand: Auslegung",
-    overview: {
-      de: "Aufstellung des qualifizierten Bebauungsplans „Töpfenmühle“ im Rahmen eines zweistufigen Verfahrens. Innerhalb des Geltungsbereiches wurden Art und Maß der baulichen Nutzung, überbaubare Grundstücksflächen und örtliche Verkehrsflächen verbindlich festgesetzt.",
-      en: "Drafting of the qualified master plan 'Toepfenmuehle' via a formal two-tier procedure, establishing binding regulations for land use, building footprints, and local road infrastructure.",
-    },
-    challenge: {
-      de: "Schaffung von rechtssicherem Baurecht unter gleichzeitigem Schutz und Erhalt der ländlich geprägten, historisch bedeutsamen dörflichen Siedlungsstruktur und strengen Naturschutzanforderungen.",
-      en: "Establishing legal building rights while preserving the historical rural village fabric and meeting stringent environmental protection mandates.",
-    },
-    concept: {
-      de: "Energetische Sanierung von Bestandsgebäuden, planungssichere Ermöglichung erforderlicher Ersatzbauten und Bewahrung unbebauter Flächen in ihrer natürlichen landschaftlichen Form.",
-      en: "Enabling energy retrofits of existing buildings and replacement structures while strictly safeguarding natural green zones.",
-    },
-    outcome: {
-      de: "Erfolgreiche öffentliche Auslegung und gesicherte städtebauliche Entwicklung bei vollständiger Erschließung.",
-      en: "Successful public consultation phase and legally secured sustainable rural development.",
-    },
-    keyFacts: {
-      de: [
-        "Qualifizierter Bebauungsplan gem. § 30 Abs. 1 BauGB",
-        "Vollständige Umweltprüfung nach § 2 Abs. 4 BauGB",
-        "Erhalt der ländlichen Siedlungsstruktur",
-        "Erschließung vollständig gesichert",
-      ],
-      en: [
-        "Qualified Master Plan under § 30 (1) BauGB",
-        "Complete Environmental Assessment (§ 2 (4) BauGB)",
-        "Preservation of Historical Village Identity",
-        "Full Infrastructure Access Secured",
-      ],
-    },
-  },
-  {
-    id: "netto-supermarkt-muenster-hessen",
-    slug: "netto-supermarkt-muenster-hessen",
-    publishedDate: "2023-03-20",
+    id: "lagerhalle-feinkost-fleischverarbeitung",
+    slug: "lagerhalle-feinkost-fleischverarbeitung",
+    publishedDate: "2019-10-30",
     category: "commercial",
     categoryLabel: {
-      de: "Mischnutzung & Ausführungsplanung",
-      en: "Mixed-Use & Working Drawings",
+      de: "Gewerbebau & Logistik",
+      en: "Industrial & Logistics",
     },
     title: {
-      de: "„Netto“ Supermarkt & 22 Wohnungen, Münster (Hessen)",
-      en: "'Netto' Supermarket & 22 Apartments, Muenster (Hesse)",
+      de: "Lagerhalle Feinkost & Fleischverarbeitung",
+      en: "Logistics & Processing Facility Fine Food",
     },
     subtitle: {
-      de: "Ausführungsplanung (LPH 5) für Nahversorgungszentrum, 22 Wohnungen, Tiefgarage und grünen Innenhof",
-      en: "Execution Planning (Phase 5) for Commercial Center, 22 Apartments, Underground Parking and Green Courtyard",
+      de: "Neubau einer modernen Lager-, Kühl- und Produktionshalle für Lebensmittelverarbeitung",
+      en: "New Construction of a Cold Storage and Processing Facility for Fine Food Logistics",
     },
     location: {
-      de: "Münster (Hessen)",
-      en: "Muenster (Hesse)",
+      de: "Süddeutschland",
+      en: "Southern Germany",
     },
     client: {
-      de: "Gewerblicher Projektentwickler",
-      en: "Commercial Real Estate Developer",
+      de: "Lebensmittelproduzent & Großhandel",
+      en: "Food Producer & Wholesaler",
     },
-    legalBasis: "HBO / Baugenehmigung (LPH 5 Ausführungsplanung)",
-    year: "2023",
-    image: "/images/image-37e42d.jpg",
-    imageAlt: "Ausführungsplanung und Realisierung Netto Supermarkt, 22 Wohnungen und einer Tiefgarage",
+    legalBasis: "Gewerbebau / Baugenehmigung",
+    year: "2019",
+    image: "/images/image-35c767.jpg",
+    imageAlt: "Lagerhalle für Feinkost und Fleischverarbeitung",
     overview: {
-      de: "Umfassende Ausführungsplanung und bauliche Realisierung eines modernen Nahversorgungszentrums mit „Netto“-Supermarkt im Erdgeschoss, 22 Wohneinheiten in den Obergeschossen, Tiefgarage und einem begrünten Dachinnenhof.",
-      en: "Detailed working drawings (LPH 5) and construction management for a mixed-use retail hub featuring a ground-floor Netto supermarket, 22 residential units above, underground parking, and a landscaped rooftop courtyard.",
+      de: "Planung und Realisierung einer funktionalen Lager- und Produktionshalle mit speziellen Kühl- und Verarbeitungsbereichen unter Einhaltung strengster Lebensmittel- und Hygienevorschriften.",
+      en: "Design and delivery of a specialized warehouse and processing plant featuring custom refrigeration and cold chain logistics adhering to strict food safety standards.",
     },
     challenge: {
-      de: "Komplexe statische und schallschutztechnische Entkopplung zwischen gewerblicher Supermarktnutzung (Lieferverkehr, Kundenfrequenz) und den darüberliegenden ruhigen Wohnungen.",
-      en: "Complex acoustic and structural decoupling between the high-traffic ground-floor supermarket and the quiet residential units on upper floors.",
+      de: "Optimierung von internen Logistikabläufen und Einhaltung kontinuierlicher Kühlketten bei hoher Energieeffizienz.",
+      en: "Optimizing internal workflow logistics and uninterrupted cold chains with high thermal efficiency.",
     },
     concept: {
-      de: "Präzise Werk- und Detailplanung aller Bauteile, integrale Haustechnikkoordination, optimierte Tiefgaragenlogistik und ein geschützter grüner Innenhof als privater Aufenthaltsbereich für Bewohner.",
-      en: "Precision technical working drawings, integrated MEP coordination, optimized parking logistics, and a secluded green courtyard for residents.",
+      de: "Effiziente Stahlrahmenkonstruktion, hochgedämmte Paneele, moderne Kältetechnik mit Wärmerückgewinnung und durchdachte Andockstationen für LKW.",
+      en: "Efficient steel portal frame, insulated sandwich panels, heat recovery refrigeration, and organized loading docks.",
     },
     outcome: {
-      de: "Erfolgreiche termingerechte Realisierung und nahtlose Inbetriebnahme des Nahversorgungszentrums.",
-      en: "Successful on-time construction and seamless handover of the retail and residential center.",
+      de: "Erfolgreiche Inbetriebnahme und signifikante Steigerung der betrieblichen Verarbeitungskapazität.",
+      en: "Successful operational launch and substantial increase in food processing throughput.",
     },
     keyFacts: {
       de: [
-        "Ausführungsplanung (LPH 5 HOAI)",
-        "Nahversorgungszentrum mit Supermarkt",
-        "22 moderne Wohneinheiten",
-        "Tiefgarage & begrünter Innenhof",
+        "Gewerblicher Hallenbau",
+        "Kühl- & Verarbeitungslogistik",
+        "Hygienekonforme Bauausführung",
+        "Süddeutschland",
       ],
       en: [
-        "Working Drawings (Phase 5 HOAI)",
-        "Retail Center with Supermarket",
-        "22 Modern Residential Units",
-        "Underground Parking & Green Courtyard",
-      ],
-    },
-  },
-  {
-    id: "mehrfamilienhaus-dreieich-goetzenhain",
-    slug: "mehrfamilienhaus-dreieich-goetzenhain",
-    publishedDate: "2021-09-12",
-    category: "residential",
-    categoryLabel: {
-      de: "Wohnungsbau",
-      en: "Residential Architecture",
-    },
-    title: {
-      de: "Mehrfamilienhaus Dreieich-Götzenhain",
-      en: "Multi-Family Residential Building Dreieich-Goetzenhain",
-    },
-    subtitle: {
-      de: "Neubau eines dreistöckigen Mehrfamilienhauses mit großen Fenstern und Balkonen im Baumbestand",
-      en: "New Construction of a Three-Story Residential Building with Large Glazing and Balconies",
-    },
-    location: {
-      de: "Dreieich-Götzenhain, Hessen",
-      en: "Dreieich-Goetzenhain, Hesse",
-    },
-    client: {
-      de: "Privater Bauherr & Investor",
-      en: "Private Client & Investor",
-    },
-    legalBasis: "§ 34 BauGB / HBO",
-    year: "2021",
-    image: "/images/image-3a7a9c.jpg",
-    imageAlt: "Neubau Mehrfamilienhaus in Dreieich Götzenhain 2021",
-    overview: {
-      de: "Neubau eines dreistöckigen Wohngebäudes in gewachsener Wohnlage von Dreieich-Götzenhain. Das architektonische Konzept besticht durch großzügige Verglasungen, sonnige Balkone und eine harmonische Einbindung in den alten Baumbestand.",
-      en: "New construction of a three-story residential building in Dreieich-Goetzenhain. The architectural concept highlights expansive window openings, spacious balconies, and sensitive integration among mature trees.",
-    },
-    challenge: {
-      de: "Erhalt des geschützten Baumbestands auf dem Grundstück bei gleichzeitiger Maximierung von Wohnfläche und natürlicher Belichtung.",
-      en: "Preserving protected mature trees on the plot while optimizing usable floor space and maximizing natural daylight.",
-    },
-    concept: {
-      de: "Moderne, klare Fassadengliederung, lichtdurchflutete Grundrisse und hochwertige energetische Dämmung für langfristigen Wohnkomfort.",
-      en: "Modern, clean facade articulation, light-flooded layouts, and high-performance insulation ensuring long-term living comfort.",
-    },
-    outcome: {
-      de: "Vollständige Realisierung und hohe Wohnzufriedenheit aller Bewohner.",
-      en: "Full construction completion with outstanding client and resident satisfaction.",
-    },
-    keyFacts: {
-      de: [
-        "Dreistöckiger Neubau",
-        "Großzügige Balkone & bodentiefe Fenster",
-        "Harmonische Einbettung in Baumbestand",
-        "Hohe Energieeffizienz",
-      ],
-      en: [
-        "Three-Story New Development",
-        "Spacious Balconies & Floor-to-Ceiling Windows",
-        "Seamless Tree Canopy Integration",
-        "High Energy Performance",
-      ],
-    },
-  },
-  {
-    id: "einfamilienhaus-lingen-ems",
-    slug: "einfamilienhaus-lingen-ems",
-    publishedDate: "2021-05-18",
-    category: "residential",
-    categoryLabel: {
-      de: "Individueller Wohnungsbau",
-      en: "Custom Residential",
-    },
-    title: {
-      de: "Einfamilienhaus Lingen (Ems)",
-      en: "Single-Family Residence Lingen (Ems)",
-    },
-    subtitle: {
-      de: "Planung, Baugenehmigung und schlüsselfertige Realisierung von der Bodenplatte bis zum Innenausbau",
-      en: "Planning, Permitting, and Turnkey Realization from Foundation to Interior Finishing",
-    },
-    location: {
-      de: "Lingen (Ems), Niedersachsen",
-      en: "Lingen (Ems), Lower Saxony",
-    },
-    client: {
-      de: "Private Bauherrenfamilie",
-      en: "Private Family Client",
-    },
-    legalBasis: "B-Plan / NBauO",
-    year: "2021",
-    image: "/images/image-09c215.jpg",
-    imageAlt: "Realisierung 2021, Einfamilienhaus, Lingen (Ems)",
-    overview: {
-      de: "Ganzheitliche Betreuung eines modernen Einfamilienhauses über alle Leistungsphasen: Entwurf, Bauantrag, Ausführungsplanung, Bauüberwachung von der Bodenplatte über den Rohbau bis zu den bodentiefen Fenstern und dem Innenausbau.",
-      en: "Full-service architectural delivery for a contemporary single-family home across all phases: concept, building permit, detailed drawings, and site supervision from foundation to finished interiors.",
-    },
-    challenge: {
-      de: "Maßgeschneiderte Umsetzung individueller Bauherrenwünsche bei strikter Einhaltung des Budgets und des Terminplans.",
-      en: "Delivering customized client requirements while strictly managing budget and project milestones.",
-    },
-    concept: {
-      de: "Offenes Raumkonzept im Erdgeschoss mit direktem Gartenbezug, private Rückzugsbereiche im Obergeschoss und moderne Wärmepumpentechnik.",
-      en: "Open ground-floor living connected to the garden, private upper-floor suites, and modern heat-pump mechanical systems.",
-    },
-    outcome: {
-      de: "Erfolgreiche Übergabe des schlüsselfertigen Wohnhauses an die Bauherrenfamilie.",
-      en: "Successful handover of the turnkey residence to the delighted family.",
-    },
-    keyFacts: {
-      de: [
-        "Leistungsphasen 1–8 HOAI",
-        "Bodentiefe Fensterfronten",
-        "Massivbauweise mit Wärmedämmverbund",
-        "Vollständige Bauüberwachung",
-      ],
-      en: [
-        "Phases 1–8 HOAI",
-        "Floor-to-Ceiling Windows",
-        "Solid Masonry with Thermal Insulation",
-        "Complete Site Supervision",
-      ],
-    },
-  },
-  {
-    id: "kindergarten-schemmerhofen",
-    slug: "kindergarten-schemmerhofen",
-    publishedDate: "2024-06-15",
-    category: "education",
-    categoryLabel: {
-      de: "Bildungs- & Kommunalbau",
-      en: "Educational & Public Architecture",
-    },
-    title: {
-      de: "Kindergarten Schemmerhofen bei Ulm",
-      en: "Kindergarten Schemmerhofen near Ulm",
-    },
-    subtitle: {
-      de: "Kindgerechter Neubau einer Kindertagesstätte (LPH 1–4) im Auftrag von Obermeier + Traub Ulm",
-      en: "Child-Centric Kindergarten New Build (Phases 1–4) for Obermeier + Traub Ulm",
-    },
-    location: {
-      de: "Schemmerhofen, Baden-Württemberg",
-      en: "Schemmerhofen, Baden-Wuerttemberg",
-    },
-    client: {
-      de: "Gemeinde Schemmerhofen / Obermeier + Traub",
-      en: "Municipality of Schemmerhofen / Obermeier + Traub",
-    },
-    legalBasis: "LBO Baden-Württemberg / Kommunaler Bildungsbau",
-    year: "2024",
-    image: "/images/image-f36e2e.png",
-    imageAlt: "Kindergarten in Schemmerhofen bei Ulm",
-    overview: {
-      de: "Planung eines modernen, kindgerechten Kindergartens mit Gruppenräumen, Bewegungsflächen, Mehrzweckraum und kindersicherem Außenbereich im Auftrag von Obermeier + Traub Ulm (LPH 1–4).",
-      en: "Architectural planning for a modern daycare center featuring group rooms, active play areas, multi-purpose hall, and secure outdoor gardens for Obermeier + Traub Ulm (Phases 1–4).",
-    },
-    challenge: {
-      de: "Einhaltung strenger kommunaler Sicherheits-, Hygiene- und Akustikauflagen bei gleichzeitiger Schaffung einer warmen, anregenden Lernatmosphäre.",
-      en: "Meeting strict municipal safety, acoustics, and hygiene regulations while crafting an inspiring, child-friendly atmosphere.",
-    },
-    concept: {
-      de: "Klare Zonierung der Funktionsbereiche, schadstofffreie Baumaterialien, Akustikdecken zur Lärmminderung und ebenerdige Zugänge zu den Freispielflächen.",
-      en: "Clear functional zoning, non-toxic materials, acoustic baffles for noise dampening, and step-free garden access.",
-    },
-    outcome: {
-      de: "Genehmigter Entwurf und erfolgreiche Übergabe der Genehmigungsplanung an die Gemeinde.",
-      en: "Permit approved and successfully handed over to municipal authorities.",
-    },
-    keyFacts: {
-      de: [
-        "Planungsphasen 1–4 HOAI",
-        "Kindgerechte Architektur & Akustik",
-        "Ökologische, schadstofffreie Baustoffe",
-        "Kommunaler Bildungsbau",
-      ],
-      en: [
-        "Planning Phases 1–4 HOAI",
-        "Child-Centric Design & Acoustics",
-        "Eco-Friendly Non-Toxic Materials",
-        "Municipal Educational Building",
-      ],
-    },
-  },
-  {
-    id: "bebauungsplan-neu-ulm-baufeld-5-ost",
-    slug: "bebauungsplan-neu-ulm-baufeld-5-ost",
-    publishedDate: "2020-11-25",
-    category: "urban-planning",
-    categoryLabel: {
-      de: "Bauleitplanung & Städtebau",
-      en: "Zoning & Master Planning",
-    },
-    title: {
-      de: "Bebauungsplan M 115 „Baufeld 5 – OST“, Neu-Ulm",
-      en: "Zoning Plan M 115 'Baufeld 5 – OST', Neu-Ulm",
-    },
-    subtitle: {
-      de: "Städtebauliche Bebauungsplanung für ein innerstädtisches Entwicklungsfeld im Auftrag von Obermeier + Traub",
-      en: "Urban Master Planning for an Inner-City Development Parcel on Behalf of Obermeier + Traub",
-    },
-    location: {
-      de: "Neu-Ulm, Bayern",
-      en: "Neu-Ulm, Bavaria",
-    },
-    client: {
-      de: "Stadt Neu-Ulm / Obermeier + Traub",
-      en: "City of Neu-Ulm / Obermeier + Traub",
-    },
-    legalBasis: "BauGB / BayBO",
-    year: "2020",
-    image: "/images/image-f9659f.jpg",
-    imageAlt: "Bebauungsplan M 115 „Baufeld 5 – OST“ Stadt Neu-Ulm, für Obermeier u. Traub",
-    overview: {
-      de: "Erarbeitung der städtebaulichen Festsetzungen und Planzeichnung für das innerstädtische Baufeld M 115 in Neu-Ulm zur Schaffung von Baurecht für hochwertige Wohn- und Gewerbenutzung.",
-      en: "Formulation of urban planning regulations and statutory plan drawings for inner-city parcel M 115 in Neu-Ulm to secure building rights for high-density residential and commercial use.",
-    },
-    challenge: {
-      de: "Verbindung hoher städtebaulicher Dichte mit optimaler Verkehrserschließung und Lärmschutz an zentralen Erschließungsachsen.",
-      en: "Balancing high urban density with optimized traffic infrastructure and acoustic shielding along major urban corridors.",
-    },
-    concept: {
-      de: "Kompakte Blockrandstrukturen, grüne Innenhöfe und klare Abgrenzung von Wohn- und Gewerbebereichen.",
-      en: "Compact perimeter block typology with green inner courts and structured zoning separation.",
-    },
-    outcome: {
-      de: "Rechtssicherer Bebauungsplan als Grundlage für die nachhaltige innerstädtische Transformation.",
-      en: "Legally ratified zoning plan laying the foundation for sustainable urban redevelopment.",
-    },
-    keyFacts: {
-      de: [
-        "Bebauungsplan M 115 Neu-Ulm",
-        "Innerstädtische Nachverdichtung",
-        "Wohn- und Gewerbenutzung",
-        "Kooperation mit Obermeier + Traub",
-      ],
-      en: [
-        "Zoning Statute M 115 Neu-Ulm",
-        "Inner-City Infill Development",
-        "Mixed Residential & Commercial",
-        "Cooperation with Obermeier + Traub",
+        "Commercial Industrial Facility",
+        "Refrigerated Food Logistics",
+        "HACCP-Compliant Construction",
+        "Southern Germany",
       ],
     },
   },
@@ -892,6 +453,186 @@ export const rawProjects: Project[] = [
     },
   },
   {
+    id: "bebauungsplan-neu-ulm-baufeld-5-ost",
+    slug: "bebauungsplan-neu-ulm-baufeld-5-ost",
+    publishedDate: "2020-11-25",
+    category: "urban-planning",
+    categoryLabel: {
+      de: "Bauleitplanung & Städtebau",
+      en: "Zoning & Master Planning",
+    },
+    title: {
+      de: "Bebauungsplan M 115 „Baufeld 5 – OST“, Neu-Ulm",
+      en: "Zoning Plan M 115 'Baufeld 5 – OST', Neu-Ulm",
+    },
+    subtitle: {
+      de: "Städtebauliche Bebauungsplanung für ein innerstädtisches Entwicklungsfeld im Auftrag von Obermeier + Traub",
+      en: "Urban Master Planning for an Inner-City Development Parcel on Behalf of Obermeier + Traub",
+    },
+    location: {
+      de: "Neu-Ulm, Bayern",
+      en: "Neu-Ulm, Bavaria",
+    },
+    client: {
+      de: "Stadt Neu-Ulm / Obermeier + Traub",
+      en: "City of Neu-Ulm / Obermeier + Traub",
+    },
+    legalBasis: "BauGB / BayBO",
+    year: "2020",
+    image: "/images/image-f9659f.jpg",
+    imageAlt: "Bebauungsplan M 115 „Baufeld 5 – OST“ Stadt Neu-Ulm, für Obermeier u. Traub",
+    overview: {
+      de: "Erarbeitung der städtebaulichen Festsetzungen und Planzeichnung für das innerstädtische Baufeld M 115 in Neu-Ulm zur Schaffung von Baurecht für hochwertige Wohn- und Gewerbenutzung.",
+      en: "Formulation of urban planning regulations and statutory plan drawings for inner-city parcel M 115 in Neu-Ulm to secure building rights for high-density residential and commercial use.",
+    },
+    challenge: {
+      de: "Verbindung hoher städtebaulicher Dichte mit optimaler Verkehrserschließung und Lärmschutz an zentralen Erschließungsachsen.",
+      en: "Balancing high urban density with optimized traffic infrastructure and acoustic shielding along major urban corridors.",
+    },
+    concept: {
+      de: "Kompakte Blockrandstrukturen, grüne Innenhöfe und klare Abgrenzung von Wohn- und Gewerbebereichen.",
+      en: "Compact perimeter block typology with green inner courts and structured zoning separation.",
+    },
+    outcome: {
+      de: "Rechtssicherer Bebauungsplan als Grundlage für die nachhaltige innerstädtische Transformation.",
+      en: "Legally ratified zoning plan laying the foundation for sustainable urban redevelopment.",
+    },
+    keyFacts: {
+      de: [
+        "Bebauungsplan M 115 Neu-Ulm",
+        "Innerstädtische Nachverdichtung",
+        "Wohn- und Gewerbenutzung",
+        "Kooperation mit Obermeier + Traub",
+      ],
+      en: [
+        "Zoning Statute M 115 Neu-Ulm",
+        "Inner-City Infill Development",
+        "Mixed Residential & Commercial",
+        "Cooperation with Obermeier + Traub",
+      ],
+    },
+  },
+  {
+    id: "bebauungsplan-toepfenmuehle-gersfeld",
+    slug: "bebauungsplan-toepfenmuehle-gersfeld",
+    publishedDate: "2023-08-15",
+    category: "urban-planning",
+    categoryLabel: {
+      de: "Bauleitplanung",
+      en: "Urban Master Planning",
+    },
+    title: {
+      de: "Bebauungsplan „Töpfenmühle“, Gersfeld (Rhön)",
+      en: "Zoning Plan 'Toepfenmuehle', Gersfeld (Rhoen)",
+    },
+    subtitle: {
+      de: "Qualifizierter Bebauungsplan gem. § 30 Abs. 1 BauGB mit Umweltprüfung und Artenschutz",
+      en: "Qualified Master Plan under § 30 (1) BauGB with Environmental and Species Impact Assessment",
+    },
+    location: {
+      de: "Gersfeld (Rhön), Hessen",
+      en: "Gersfeld (Rhoen), Hesse",
+    },
+    client: {
+      de: "Stadt Gersfeld (Rhön)",
+      en: "Municipality of Gersfeld (Rhoen)",
+    },
+    legalBasis: "§ 30 Abs. 1 BauGB i.V.m. § 2 Abs. 4 BauGB (Umweltbericht & Artenschutz)",
+    year: "2023",
+    image: "/images/image-f22e9f.jpg",
+    imageAlt: "Begründung Bebauungsplan Töpfenmühle Gersfeld (Rhön), Verfahrensstand: Auslegung",
+    overview: {
+      de: "Aufstellung des qualifizierten Bebauungsplans „Töpfenmühle“ im Rahmen eines zweistufigen Verfahrens. Innerhalb des Geltungsbereiches wurden Art und Maß der baulichen Nutzung, überbaubare Grundstücksflächen und örtliche Verkehrsflächen verbindlich festgesetzt.",
+      en: "Drafting of the qualified master plan 'Toepfenmuehle' via a formal two-tier procedure, establishing binding regulations for land use, building footprints, and local road infrastructure.",
+    },
+    challenge: {
+      de: "Schaffung von rechtssicherem Baurecht unter gleichzeitigem Schutz und Erhalt der ländlich geprägten, historisch bedeutsamen dörflichen Siedlungsstruktur und strengen Naturschutzanforderungen.",
+      en: "Establishing legal building rights while preserving the historical rural village fabric and meeting stringent environmental protection mandates.",
+    },
+    concept: {
+      de: "Energetische Sanierung von Bestandsgebäuden, planungssichere Ermöglichung erforderlicher Ersatzbauten und Bewahrung unbebauter Flächen in ihrer natürlichen landschaftlichen Form.",
+      en: "Enabling energy retrofits of existing buildings and replacement structures while strictly safeguarding natural green zones.",
+    },
+    outcome: {
+      de: "Erfolgreiche öffentliche Auslegung und gesicherte städtebauliche Entwicklung bei vollständiger Erschließung.",
+      en: "Successful public consultation phase and legally secured sustainable rural development.",
+    },
+    keyFacts: {
+      de: [
+        "Qualifizierter Bebauungsplan gem. § 30 Abs. 1 BauGB",
+        "Vollständige Umweltprüfung nach § 2 Abs. 4 BauGB",
+        "Erhalt der ländlichen Siedlungsstruktur",
+        "Erschließung vollständig gesichert",
+      ],
+      en: [
+        "Qualified Master Plan under § 30 (1) BauGB",
+        "Complete Environmental Assessment (§ 2 (4) BauGB)",
+        "Preservation of Historical Village Identity",
+        "Full Infrastructure Access Secured",
+      ],
+    },
+  },
+  {
+    id: "kindergarten-schemmerhofen",
+    slug: "kindergarten-schemmerhofen",
+    publishedDate: "2024-06-15",
+    category: "education",
+    categoryLabel: {
+      de: "Bildungs- & Kommunalbau",
+      en: "Educational & Public Architecture",
+    },
+    title: {
+      de: "Kindergarten Schemmerhofen bei Ulm",
+      en: "Kindergarten Schemmerhofen near Ulm",
+    },
+    subtitle: {
+      de: "Kindgerechter Neubau einer Kindertagesstätte (LPH 1–4) im Auftrag von Obermeier + Traub Ulm",
+      en: "Child-Centric Kindergarten New Build (Phases 1–4) for Obermeier + Traub Ulm",
+    },
+    location: {
+      de: "Schemmerhofen, Baden-Württemberg",
+      en: "Schemmerhofen, Baden-Wuerttemberg",
+    },
+    client: {
+      de: "Gemeinde Schemmerhofen / Obermeier + Traub",
+      en: "Municipality of Schemmerhofen / Obermeier + Traub",
+    },
+    legalBasis: "LBO Baden-Württemberg / Kommunaler Bildungsbau",
+    year: "2024",
+    image: "/images/image-f36e2e.png",
+    imageAlt: "Kindergarten in Schemmerhofen bei Ulm",
+    overview: {
+      de: "Planung eines modernen, kindgerechten Kindergartens mit Gruppenräumen, Bewegungsflächen, Mehrzweckraum und kindersicherem Außenbereich im Auftrag von Obermeier + Traub Ulm (LPH 1–4).",
+      en: "Architectural planning for a modern daycare center featuring group rooms, active play areas, multi-purpose hall, and secure outdoor gardens for Obermeier + Traub Ulm (Phases 1–4).",
+    },
+    challenge: {
+      de: "Einhaltung strenger kommunaler Sicherheits-, Hygiene- und Akustikauflagen bei gleichzeitiger Schaffung einer warmen, anregenden Lernatmosphäre.",
+      en: "Meeting strict municipal safety, acoustics, and hygiene regulations while crafting an inspiring, child-friendly atmosphere.",
+    },
+    concept: {
+      de: "Klare Zonierung der Funktionsbereiche, schadstofffreie Baumaterialien, Akustikdecken zur Lärmminderung und ebenerdige Zugänge zu den Freispielflächen.",
+      en: "Clear functional zoning, non-toxic materials, acoustic baffles for noise dampening, and step-free garden access.",
+    },
+    outcome: {
+      de: "Genehmigter Entwurf und erfolgreiche Übergabe der Genehmigungsplanung an die Gemeinde.",
+      en: "Permit approved and successfully handed over to municipal authorities.",
+    },
+    keyFacts: {
+      de: [
+        "Planungsphasen 1–4 HOAI",
+        "Kindgerechte Architektur & Akustik",
+        "Ökologische, schadstofffreie Baustoffe",
+        "Kommunaler Bildungsbau",
+      ],
+      en: [
+        "Planning Phases 1–4 HOAI",
+        "Child-Centric Design & Acoustics",
+        "Eco-Friendly Non-Toxic Materials",
+        "Municipal Educational Building",
+      ],
+    },
+  },
+  {
     id: "machbarkeitsstudie-reutlingen",
     slug: "machbarkeitsstudie-reutlingen",
     publishedDate: "2020-02-05",
@@ -952,62 +693,62 @@ export const rawProjects: Project[] = [
     },
   },
   {
-    id: "lagerhalle-feinkost-fleischverarbeitung",
-    slug: "lagerhalle-feinkost-fleischverarbeitung",
-    publishedDate: "2019-10-30",
-    category: "commercial",
+    id: "mehrfamilienhaus-dreieich-goetzenhain",
+    slug: "mehrfamilienhaus-dreieich-goetzenhain",
+    publishedDate: "2021-09-12",
+    category: "residential",
     categoryLabel: {
-      de: "Gewerbebau & Logistik",
-      en: "Industrial & Logistics",
+      de: "Wohnungsbau",
+      en: "Residential Architecture",
     },
     title: {
-      de: "Lagerhalle Feinkost & Fleischverarbeitung",
-      en: "Logistics & Processing Facility Fine Food",
+      de: "Mehrfamilienhaus Dreieich-Götzenhain",
+      en: "Multi-Family Residential Building Dreieich-Goetzenhain",
     },
     subtitle: {
-      de: "Neubau einer modernen Lager-, Kühl- und Produktionshalle für Lebensmittelverarbeitung",
-      en: "New Construction of a Cold Storage and Processing Facility for Fine Food Logistics",
+      de: "Neubau eines dreistöckigen Mehrfamilienhauses mit großen Fenstern und Balkonen im Baumbestand",
+      en: "New Construction of a Three-Story Residential Building with Large Glazing and Balconies",
     },
     location: {
-      de: "Süddeutschland",
-      en: "Southern Germany",
+      de: "Dreieich-Götzenhain, Hessen",
+      en: "Dreieich-Goetzenhain, Hesse",
     },
     client: {
-      de: "Lebensmittelproduzent & Großhandel",
-      en: "Food Producer & Wholesaler",
+      de: "Privater Bauherr & Investor",
+      en: "Private Client & Investor",
     },
-    legalBasis: "Gewerbebau / Baugenehmigung",
-    year: "2019",
-    image: "/images/image-35c767.jpg",
-    imageAlt: "Lagerhalle für Feinkost und Fleischverarbeitung",
+    legalBasis: "§ 34 BauGB / HBO",
+    year: "2021",
+    image: "/images/image-3a7a9c.jpg",
+    imageAlt: "Neubau Mehrfamilienhaus in Dreieich Götzenhain 2021",
     overview: {
-      de: "Planung und Realisierung einer funktionalen Lager- und Produktionshalle mit speziellen Kühl- und Verarbeitungsbereichen unter Einhaltung strengster Lebensmittel- und Hygienevorschriften.",
-      en: "Design and delivery of a specialized warehouse and processing plant featuring custom refrigeration and cold chain logistics adhering to strict food safety standards.",
+      de: "Neubau eines dreistöckigen Wohngebäudes in gewachsener Wohnlage von Dreieich-Götzenhain. Das architektonische Konzept besticht durch großzügige Verglasungen, sonnige Balkone und eine harmonische Einbindung in den alten Baumbestand.",
+      en: "New construction of a three-story residential building in Dreieich-Goetzenhain. The architectural concept highlights expansive window openings, spacious balconies, and sensitive integration among mature trees.",
     },
     challenge: {
-      de: "Optimierung von internen Logistikabläufen und Einhaltung kontinuierlicher Kühlketten bei hoher Energieeffizienz.",
-      en: "Optimizing internal workflow logistics and uninterrupted cold chains with high thermal efficiency.",
+      de: "Erhalt des geschützten Baumbestands auf dem Grundstück bei gleichzeitiger Maximierung von Wohnfläche und natürlicher Belichtung.",
+      en: "Preserving protected mature trees on the plot while optimizing usable floor space and maximizing natural daylight.",
     },
     concept: {
-      de: "Effiziente Stahlrahmenkonstruktion, hochgedämmte Paneele, moderne Kältetechnik mit Wärmerückgewinnung und durchdachte Andockstationen für LKW.",
-      en: "Efficient steel portal frame, insulated sandwich panels, heat recovery refrigeration, and organized loading docks.",
+      de: "Moderne, klare Fassadengliederung, lichtdurchflutete Grundrisse und hochwertige energetische Dämmung für langfristigen Wohnkomfort.",
+      en: "Modern, clean facade articulation, light-flooded layouts, and high-performance insulation ensuring long-term living comfort.",
     },
     outcome: {
-      de: "Erfolgreiche Inbetriebnahme und signifikante Steigerung der betrieblichen Verarbeitungskapazität.",
-      en: "Successful operational launch and substantial increase in food processing throughput.",
+      de: "Vollständige Realisierung und hohe Wohnzufriedenheit aller Bewohner.",
+      en: "Full construction completion with outstanding client and resident satisfaction.",
     },
     keyFacts: {
       de: [
-        "Gewerblicher Hallenbau",
-        "Kühl- & Verarbeitungslogistik",
-        "Hygienekonforme Bauausführung",
-        "Süddeutschland",
+        "Dreistöckiger Neubau",
+        "Großzügige Balkone & bodentiefe Fenster",
+        "Harmonische Einbettung in Baumbestand",
+        "Hohe Energieeffizienz",
       ],
       en: [
-        "Commercial Industrial Facility",
-        "Refrigerated Food Logistics",
-        "HACCP-Compliant Construction",
-        "Southern Germany",
+        "Three-Story New Development",
+        "Spacious Balconies & Floor-to-Ceiling Windows",
+        "Seamless Tree Canopy Integration",
+        "High Energy Performance",
       ],
     },
   },
@@ -1071,8 +812,265 @@ export const rawProjects: Project[] = [
       ],
     },
   },
+  {
+    id: "vep-maienweg-ulm",
+    slug: "vep-maienweg-ulm",
+    publishedDate: "2023-11-10",
+    category: "urban-planning",
+    categoryLabel: {
+      de: "Vorhabenbezogener Bebauungsplan",
+      en: "Project-Based Zoning Plan",
+    },
+    title: {
+      de: "Vorhabenbezogener Bebauungsplan „Maienweg 2“, Ulm",
+      en: "Project-Based Zoning Plan 'Maienweg 2', Ulm",
+    },
+    subtitle: {
+      de: "Innerstädtische Nachverdichtung gem. § 12 / § 13a BauGB im Stadtteil Söflingen",
+      en: "Urban Infill Development under § 12 / § 13a BauGB in Ulm-Söflingen",
+    },
+    location: {
+      de: "Ulm (Söflingen), Baden-Württemberg",
+      en: "Ulm (Soeflingen), Baden-Wuerttemberg",
+    },
+    client: {
+      de: "Göttfried Projektbau GmbH (Neu-Ulm) in Kooperation mit Planungsbüro Obermeier+Traub",
+      en: "Göttfried Projektbau GmbH in cooperation with Obermeier+Traub Planning Practice",
+    },
+    legalBasis: "§ 12 Abs. 2 BauGB i.V.m. § 13a BauGB (Bebauungsplan der Innenentwicklung)",
+    year: "2023",
+    image: "/images/image-0996f8.jpg",
+    imageAlt: "Vorhabenbezogener Bebauungsplan Maienweg 2 Ulm, Architekturbüro Shams Consult",
+    overview: {
+      de: "Umfassende städtebauliche Neugestaltung eines Grundstücks im Ulmer Stadtteil Söflingen. Der bis dahin geltende Bebauungsplan „Harthauser Straße“ von 1971 war veraltet. Im Rahmen eines vorhabenbezogenen Bebauungsplans der Innenentwicklung (§ 13a BauGB) wurde das alte Einfamilienhaus abgerissen und durch ein harmonisches Ensemble aus Einzel- und Doppelhausbebauung ersetzt.",
+      en: "Comprehensive urban redevelopment of a residential plot in Ulm-Söflingen. The outdated 1971 master plan was superseded by a project-based zoning plan for inner development (§ 13a BauGB), replacing an obsolete single-family home with a modern ensemble of a single-family house and a semi-detached house.",
+    },
+    challenge: {
+      de: "Das Grundstück war zwischenzeitlich aufgeteilt worden und das bestehende zweigeschossige Einfamilienhaus entsprach nicht mehr den aktuellen Planungsrichtlinien. Erforderlich war die Aufstellung eines vorhabenbezogenen Bebauungsplans nach § 12 Abs. 2 BauGB zur geordneten städtebaulichen Nachverdichtung.",
+      en: "The plot had been subdivided over time and the existing structure no longer met planning guidelines. A project-based zoning plan under § 12 (2) BauGB was required to legally steer orderly urban densification.",
+    },
+    concept: {
+      de: "Abriss des Bestandsgebäudes und Errichtung von zwei unabhängigen, zweigeschossigen Wohngebäuden mit Dachgeschoss (ein Einzelhaus und ein Doppelhaus). Die Baukörper fügen sich maßstäblich in die gewachsene Umgebung ein. Ein integrales Erschließungs- und Stellplatzkonzept wahrt die Gebietseigenart.",
+      en: "Demolition of the existing building and construction of two independent two-story residential buildings with attics (one detached house and one semi-detached house), harmoniously scaled into the neighborhood with integrated on-site parking.",
+    },
+    outcome: {
+      de: "Rechtskräftiger Satzungsbeschluss des Bebauungsplans durch den Gemeinderat der Stadt Ulm. Vorbildhafte innerstädtische Nachverdichtung mit gesicherter Erschließung und Aufwertung des Ortsbildes.",
+      en: "Legally enacted binding zoning statute by the City Council of Ulm, achieving exemplary urban infill with secure access and architectural enhancement.",
+    },
+    keyFacts: {
+      de: [
+        "Bebauungsplan der Innenentwicklung gem. § 13a BauGB",
+        "Realisierung von 1 Einzelhaus + 1 Doppelhaus",
+        "Aufwertung des Ortsbilds in Ulm-Söflingen",
+        "Vollständiger Vorhaben- und Erschließungsplan (VEP)",
+      ],
+      en: [
+        "Inner Development Plan under § 13a BauGB",
+        "1 Detached House + 1 Semi-Detached House",
+        "Townscape Enhancement in Ulm-Soeflingen",
+        "Complete Project & Infrastructure Plan (VEP)",
+      ],
+    },
+    documents: [
+      {
+        title: "Vorhabenbezogener Bebauungsplan 'Maienweg 2' — Textliche Festsetzungen (PDF)",
+        url: "https://www.ulm.de/-/media/ulm/sub/sub-i/downloads/bplaene-rechtskraeftig/vorhabenbezogener-bebauungsplan-maienweg-2/bplantextlfests-anl23maienwegmitgd.pdf",
+        size: "3.65 MB",
+      },
+      {
+        title: "Begründung zum Bebauungsplan 'Maienweg 2' (PDF)",
+        url: "https://www.ulm.de/-/media/ulm/sub/sub-i/downloads/bplaene-rechtskraeftig/vorhabenbezogener-bebauungsplan-maienweg-2/anlage-4-begrndung.pdf",
+        size: "0.12 MB",
+      },
+      {
+        title: "Vorhaben- und Erschließungsplan (VEP) 'Maienweg 2' (PDF)",
+        url: "https://www.ulm.de/-/media/ulm/sub/sub-i/downloads/bplaene-rechtskraeftig/vorhabenbezogener-bebauungsplan-maienweg-2/anlage-5-vorhaben--und-erschlieungsplne.pdf",
+        size: "6.34 MB",
+      },
+      {
+        title: "Öffentliche Bekanntmachung Stadt Ulm (PDF)",
+        url: "https://www.ulm.de/-/media/ulm/sub/sub-i/downloads/bplaene-rechtskraeftig/vorhabenbezogener-bebauungsplan-maienweg-2/verffentlichung-swp.pdf",
+        size: "0.65 MB",
+      },
+    ],
+    externalReferenceUrl:
+      "https://www.ulm.de/leben-in-ulm/bauen-und-wohnen/rund-ums-bauen/bebauungsplan/rechtsverbindliche-bebauungsplaene",
+  },
+  {
+    id: "regenwasser-rigole-wohnanlage",
+    slug: "regenwasser-rigole-wohnanlage",
+    publishedDate: "2025-01-20",
+    category: "sustainability",
+    categoryLabel: {
+      de: "Nachhaltiges Bauen & Außenanlagen",
+      en: "Sustainable Drainage & Landscape",
+    },
+    title: {
+      de: "Modulare Versickerungsrigole & Außenanlagen für Wohnanlage",
+      en: "Modular Stormwater Infiltration Rigole & Residential Infrastructure",
+    },
+    subtitle: {
+      de: "Dezentrales Regenwassermanagement (Schwammstadt), Retentionsrigole & Hofneugestaltung gem. DIN 1986-100 & DWA-A 138",
+      en: "Decentralized stormwater management (Sponge City), mineral infiltration rigole & courtyard redevelopment under DIN 1986-100 & DWA-A 138",
+    },
+    location: {
+      de: "Rhein-Main-Gebiet (Hessen)",
+      en: "Rhine-Main Region (Hesse)",
+    },
+    client: {
+      de: "Wohnungsbaugesellschaft & Private Bauträgergesellschaft",
+      en: "Residential Housing Developer & Property Management",
+    },
+    legalBasis: "DIN 1986-100, DWA-A 138 & HOAI LPH 1–8 (Objektüberwachung)",
+    year: "2024–2025",
+    image: "/images/projects/shams-versickerungsrigole-regenwasser-aushub.jpg",
+    imageAlt: "Modulare Versickerungsrigole mit Retentionsblöcken im Wohnungsbau, Architekturbüro Shams Consult",
+    gallery: [
+      {
+        image: "/images/projects/shams-versickerungsrigole-regenwasser-aushub.jpg",
+        title: {
+          de: "Erdaushub & Rigolen-Unterbau",
+          en: "Excavation Pit & Sub-base Preparation",
+        },
+        desc: {
+          de: "Präziser maschineller Aushub der Baugrube und Einbau der ersten Lage mineralischer Retentions- und Sickerblöcke.",
+          en: "Precision mechanical excavation and placement of high-capacity modular mineral retention blocks.",
+        },
+      },
+      {
+        image: "/images/projects/shams-rigolenversickerung-anschluss-leitungen.jpg",
+        title: {
+          de: "Zulaufverrohrung & Kanalanschlüsse",
+          en: "Inflow Conduits & Pipework Interconnection",
+        },
+        desc: {
+          de: "Verlegung und luftdichter Anschluss der grünen KG-Zufluss- und Überlaufrohre an den Rigolenkörper für Starkregenereignisse.",
+          en: "Installation and sealed connection of drainage and overflow pipes directly to the attenuation core.",
+        },
+      },
+      {
+        image: "/images/projects/shams-retentionsbloecke-mineralwolle-rigole.jpg",
+        title: {
+          de: "Modulare Retentionsblöcke vor Ort",
+          en: "Modular Mineral Retention Blocks On-Site",
+        },
+        desc: {
+          de: "Hochverdichtete Steinwolle-Rigolenkörper mit werkseitigen Rohrdurchführungen für maximale Wasserspeicherkapazität.",
+          en: "Dense mineral-based infiltration blocks with pre-drilled conduit channels providing maximum water absorption.",
+        },
+      },
+      {
+        image: "/images/projects/shams-wohnanlage-aussenanlagen-pflasterbau.jpg",
+        title: {
+          de: "Baugrubensicherung & Oberflächenherstellung",
+          en: "Site Safety & Surface Reinstatement",
+        },
+        desc: {
+          de: "Bauzaunsicherung, Schottertragschichtverdichtung mit Baumaschinen und Vorbereitung der Pflaster- und Hofzufahrten.",
+          en: "Perimeter safety fencing, mechanized gravel compaction, and subgrade preparation for residential paving.",
+        },
+      },
+    ],
+    overview: {
+      de: "Planung, Dimensionierung und bauleitende Begleitung einer hochmodernen, modularen Rigolenversickerungsanlage für ein Mehrfamilienhaus-Ensemble im Rhein-Main-Gebiet. Ziel des Projekts war die vollständige dezentrale Versickerung des anfallenden Niederschlagswassers direkt auf dem Grundstück nach dem Schwammstadt-Prinzip, um das öffentliche Kanalnetz bei Starkregenereignissen zu 100 % zu entlasten und dauerhaft Niederschlagswassergebühren einzusparen.",
+      en: "Planning, hydraulic sizing, and full on-site construction supervision for an advanced modular stormwater infiltration rigole serving a residential multi-family complex in the Rhine-Main region. Guided by the Sponge City principle, the system ensures 100% on-site rainwater infiltration, decoupling the property from municipal sewers during extreme weather and sustainably reducing stormwater fees.",
+    },
+    challenge: {
+      de: "Begrenzter Raum im Innenhof- und Garagenbereich bei gleichzeitig hohen Spitzenabflussmengen durch großflächige Dach- und Zufahrtsflächen. Zudem erforderte der anstehende Boden eine exakte bodenmechanische und hydrogeologische Berechnung der Versickerungsleistung gem. DWA-A 138 sowie eine statisch hochbelastbare Überfahrbarkeit durch Pkw und Lieferverkehr.",
+      en: "Tight spatial constraints between garages and courtyard access combined with high peak runoff from roof and paved surfaces. The site demanded precise hydrogeological percolation calculations under DWA-A 138 and a heavy-duty structural load capacity for vehicle traffic.",
+    },
+    concept: {
+      de: "Einbau eines hocheffizienten, modularen Rigolensystems aus mineralischen Retentionsblöcken mit extrem hoher Hohlraumquote (> 95 %). Die vorkonfektionierten Blöcke nehmen Niederschlagswasser schlagartig auf und geben es zeitverzögert und gefiltert an das umliegende Erdreich ab. Ein mehrstufiges Filtersystem mit Schlammfängen verhindert das Zusetzen der Sickerporen.",
+      en: "Installation of a modular mineral retention rigole offering over 95% void volume for instantaneous water uptake and controlled, filtered subsoil percolation. Upstream silt traps and multi-stage sediment filters prevent pore clogging and guarantee decades of maintenance-free operation.",
+    },
+    outcome: {
+      de: "Erfolgreiche technische Abnahme und mängelfreie Inbetriebnahme der Anlage. Vollständige Abkopplung der Hofflächen vom Mischwasserkanal, nachhaltige Grundwasserneubildung vor Ort und deutliche Reduzierung der laufenden kommunalen Entwässerungsgebühren für die Eigentümergemeinschaft.",
+      en: "Successful technical handover with zero defects. Complete decoupling of paved areas from the municipal combined sewer, on-site groundwater replenishment, and significant long-term municipal drainage fee savings for the owners.",
+    },
+    keyFacts: {
+      de: [
+        "100% dezentrale Regenwasserversickerung (Schwammstadt-Prinzip)",
+        "Modulare mineralische Retentionsblöcke mit > 95% Hohlraumvolumen",
+        "Vollständige Entlastung des kommunalen Kanalnetzes bei Starkregen",
+        "HOAI Leistungsphasen 1–8 inkl. Vor-Ort-Bauüberwachung & Abnahme",
+        "Dauerhafte Ersparnis bei kommunalen Niederschlagswassergebühren",
+      ],
+      en: [
+        "100% decentralized on-site stormwater infiltration (Sponge City principle)",
+        "Modular mineral infiltration blocks with > 95% void capacity",
+        "Complete relief of municipal sewer infrastructure during heavy storms",
+        "HOAI project phases 1–8 including full on-site supervision & certification",
+        "Permanent operational savings on municipal rainwater drainage fees",
+      ],
+    },
+    externalReferenceUrl:
+      "https://www.hna.de/lokales/rotenburg-bebra/bebra-ort46578/bebra-it-rechenzentrum-bau-projekt-plan-konzept-idee-investition-news-94362529.html",
+    externalReferenceTitle: {
+      de: "HNA-Pressebericht: Rechenzentrum & Bau-Projekt Bebra",
+      en: "HNA Press Article: Data Center & Construction Project Bebra",
+    },
+    blogSlug: "wirtschaftliche-umsetzung-nachhaltiger-projekte",
+  },
+  {
+    id: "einfamilienhaus-lingen-ems",
+    slug: "einfamilienhaus-lingen-ems",
+    publishedDate: "2021-05-18",
+    category: "residential",
+    categoryLabel: {
+      de: "Individueller Wohnungsbau",
+      en: "Custom Residential",
+    },
+    title: {
+      de: "Einfamilienhaus Lingen (Ems)",
+      en: "Single-Family Residence Lingen (Ems)",
+    },
+    subtitle: {
+      de: "Planung, Baugenehmigung und schlüsselfertige Realisierung von der Bodenplatte bis zum Innenausbau",
+      en: "Planning, Permitting, and Turnkey Realization from Foundation to Interior Finishing",
+    },
+    location: {
+      de: "Lingen (Ems), Niedersachsen",
+      en: "Lingen (Ems), Lower Saxony",
+    },
+    client: {
+      de: "Private Bauherrenfamilie",
+      en: "Private Family Client",
+    },
+    legalBasis: "B-Plan / NBauO",
+    year: "2021",
+    image: "/images/image-09c215.jpg",
+    imageAlt: "Realisierung 2021, Einfamilienhaus, Lingen (Ems)",
+    overview: {
+      de: "Ganzheitliche Betreuung eines modernen Einfamilienhauses über alle Leistungsphasen: Entwurf, Bauantrag, Ausführungsplanung, Bauüberwachung von der Bodenplatte über den Rohbau bis zu den bodentiefen Fenstern und dem Innenausbau.",
+      en: "Full-service architectural delivery for a contemporary single-family home across all phases: concept, building permit, detailed drawings, and site supervision from foundation to finished interiors.",
+    },
+    challenge: {
+      de: "Maßgeschneiderte Umsetzung individueller Bauherrenwünsche bei strikter Einhaltung des Budgets und des Terminplans.",
+      en: "Delivering customized client requirements while strictly managing budget and project milestones.",
+    },
+    concept: {
+      de: "Offenes Raumkonzept im Erdgeschoss mit direktem Gartenbezug, private Rückzugsbereiche im Obergeschoss und moderne Wärmepumpentechnik.",
+      en: "Open ground-floor living connected to the garden, private upper-floor suites, and modern heat-pump mechanical systems.",
+    },
+    outcome: {
+      de: "Erfolgreiche Übergabe des schlüsselfertigen Wohnhauses an die Bauherrenfamilie.",
+      en: "Successful handover of the turnkey residence to the delighted family.",
+    },
+    keyFacts: {
+      de: [
+        "Leistungsphasen 1–8 HOAI",
+        "Bodentiefe Fensterfronten",
+        "Massivbauweise mit Wärmedämmverbund",
+        "Vollständige Bauüberwachung",
+      ],
+      en: [
+        "Phases 1–8 HOAI",
+        "Floor-to-Ceiling Windows",
+        "Solid Masonry with Thermal Insulation",
+        "Complete Site Supervision",
+      ],
+    },
+  },
 ];
 
-export const projects: Project[] = [...rawProjects].sort(
-  (a, b) => new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime()
-);
+export const projects: Project[] = [...rawProjects];

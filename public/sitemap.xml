@@ -3,13 +3,13 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://shams-consult.de/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://shams-consult.de/en</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -578,78 +578,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shams-consult.de/project/neubau-buerogebaeude-adler-seeheim-jugenheim</loc>
-    <lastmod>2024-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/en/project/neubau-buerogebaeude-adler-seeheim-jugenheim</loc>
-    <lastmod>2024-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/project/qs-nachhaltiges-gebaeude-goetzenhain</loc>
-    <lastmod>2025-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/en/project/qs-nachhaltiges-gebaeude-goetzenhain</loc>
-    <lastmod>2025-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/project/regenwasser-rigole-wohnanlage</loc>
-    <lastmod>2025-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/en/project/regenwasser-rigole-wohnanlage</loc>
-    <lastmod>2025-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/project/kindergarten-schemmerhofen</loc>
-    <lastmod>2024-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/en/project/kindergarten-schemmerhofen</loc>
-    <lastmod>2024-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/project/vep-maienweg-ulm</loc>
-    <lastmod>2023-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/en/project/vep-maienweg-ulm</loc>
-    <lastmod>2023-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/project/bebauungsplan-toepfenmuehle-gersfeld</loc>
-    <lastmod>2023-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/en/project/bebauungsplan-toepfenmuehle-gersfeld</loc>
-    <lastmod>2023-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://shams-consult.de/project/netto-supermarkt-muenster-hessen</loc>
     <lastmod>2023-06-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -662,38 +590,26 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shams-consult.de/project/mehrfamilienhaus-dreieich-goetzenhain</loc>
-    <lastmod>2021-06-01</lastmod>
+    <loc>https://shams-consult.de/project/neubau-buerogebaeude-adler-seeheim-jugenheim</loc>
+    <lastmod>2024-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shams-consult.de/en/project/mehrfamilienhaus-dreieich-goetzenhain</loc>
-    <lastmod>2021-06-01</lastmod>
+    <loc>https://shams-consult.de/en/project/neubau-buerogebaeude-adler-seeheim-jugenheim</loc>
+    <lastmod>2024-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shams-consult.de/project/einfamilienhaus-lingen-ems</loc>
-    <lastmod>2021-06-01</lastmod>
+    <loc>https://shams-consult.de/project/lagerhalle-feinkost-fleischverarbeitung</loc>
+    <lastmod>2019-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shams-consult.de/en/project/einfamilienhaus-lingen-ems</loc>
-    <lastmod>2021-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/project/bebauungsplan-neu-ulm-baufeld-5-ost</loc>
-    <lastmod>2020-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shams-consult.de/en/project/bebauungsplan-neu-ulm-baufeld-5-ost</loc>
-    <lastmod>2020-06-01</lastmod>
+    <loc>https://shams-consult.de/en/project/lagerhalle-feinkost-fleischverarbeitung</loc>
+    <lastmod>2019-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -722,6 +638,42 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://shams-consult.de/project/bebauungsplan-neu-ulm-baufeld-5-ost</loc>
+    <lastmod>2020-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/en/project/bebauungsplan-neu-ulm-baufeld-5-ost</loc>
+    <lastmod>2020-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/project/bebauungsplan-toepfenmuehle-gersfeld</loc>
+    <lastmod>2023-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/en/project/bebauungsplan-toepfenmuehle-gersfeld</loc>
+    <lastmod>2023-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/project/kindergarten-schemmerhofen</loc>
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/en/project/kindergarten-schemmerhofen</loc>
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://shams-consult.de/project/machbarkeitsstudie-reutlingen</loc>
     <lastmod>2020-06-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -734,14 +686,62 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shams-consult.de/project/lagerhalle-feinkost-fleischverarbeitung</loc>
-    <lastmod>2019-06-01</lastmod>
+    <loc>https://shams-consult.de/project/mehrfamilienhaus-dreieich-goetzenhain</loc>
+    <lastmod>2021-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://shams-consult.de/en/project/lagerhalle-feinkost-fleischverarbeitung</loc>
-    <lastmod>2019-06-01</lastmod>
+    <loc>https://shams-consult.de/en/project/mehrfamilienhaus-dreieich-goetzenhain</loc>
+    <lastmod>2021-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/project/qs-nachhaltiges-gebaeude-goetzenhain</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/en/project/qs-nachhaltiges-gebaeude-goetzenhain</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/project/vep-maienweg-ulm</loc>
+    <lastmod>2023-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/en/project/vep-maienweg-ulm</loc>
+    <lastmod>2023-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/project/regenwasser-rigole-wohnanlage</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/en/project/regenwasser-rigole-wohnanlage</loc>
+    <lastmod>2025-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/project/einfamilienhaus-lingen-ems</loc>
+    <lastmod>2021-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shams-consult.de/en/project/einfamilienhaus-lingen-ems</loc>
+    <lastmod>2021-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -52,9 +52,9 @@ export function ProjectsPage({
 
   const categories = [
     { id: "all", label: t.filterAll },
+    { id: "commercial", label: t.filterCommercial },
     { id: "urban-planning", label: t.filterUrban },
     { id: "residential", label: t.filterResidential },
-    { id: "commercial", label: t.filterCommercial },
     { id: "education", label: t.filterEducation },
     { id: "sustainability", label: t.filterSustainability },
   ];
