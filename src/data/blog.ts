@@ -126,9 +126,11 @@ Ich bin gespannt auf Widerspruch.
 
 ---
 
-**Sie planen ein Rechenzentrum oder ein komplexes Infrastrukturprojekt?**
+**Sie planen ein Rechenzentrum oder ein komplexes Infrastrukturvorhaben?**
 
-[Erstgespräch mit Dipl.-Ing. Majeed Shams anfragen →](https://shams-consult.de)`,
+- [Erstgespräch online buchen (30 Min. Kalendertermin) →](https://outlook.office365.com/owa/calendar/TerminvereinbarungBauundPlanungsberatungmitShamsConsult@shams-consult.de/bookings/)
+- [Projekt über das Kontaktformular anfragen →](/#contact)
+- Direkte telefonische Ersteinschätzung: [069 74 223 777](tel:+496974223777)`,
       en: `**We are planning data centers for a future we do not know. Is that brave or reckless?**
 
 A large portion of the data of German companies, public authorities, and citizens resides on servers owned by non-European providers. For critical infrastructure (KRITIS), this is not an IT detail, but a fundamental question of sovereignty: Whoever operates the servers ultimately decides who has access.
@@ -188,7 +190,9 @@ I look forward to hearing counter-perspectives.
 
 **Planning a data center or complex infrastructure project?**
 
-[Request an initial consultation with Dipl.-Ing. Majeed Shams →](https://shams-consult.de)`,
+- [Book a 30-minute consultation directly in our calendar →](https://outlook.office365.com/owa/calendar/TerminvereinbarungBauundPlanungsberatungmitShamsConsult@shams-consult.de/bookings/)
+- [Send a project inquiry via our contact form →](/en#contact)
+- Direct phone consultation: [+49 69 74 223 777](tel:+496974223777)`,
     },
   },
   {
