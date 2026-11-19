@@ -41,6 +41,157 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "rechenzentren-souveraenitaet-energie-zukunft",
+    category: {
+      de: "Bauleitplanung & Städtebau",
+      en: "Urban Planning & Zoning",
+    },
+    date: {
+      de: "19. November 2026",
+      en: "November 19, 2026",
+    },
+    isoDate: "2026-11-19",
+    readTime: {
+      de: "4 Min. Lesezeit",
+      en: "4 min read",
+    },
+    title: {
+      de: "Rechenzentren für eine unbekannte Zukunft: Mutig oder fahrlässig?",
+      en: "Planning Data Centers for an Unknown Future: Brave or Reckless?",
+    },
+    excerpt: {
+      de: "Digitale Souveränität trifft auf Schneckentempo in der Bauleitplanung, ungelöste Energiefragen und starre Abwärmevorgaben. Warum Rechenzentren keine 30-Jahre-Monolithen sein dürfen, sondern eine eingebaute zweite Chance brauchen.",
+      en: "Digital sovereignty collides with slow-motion zoning, unsolved energy questions, and rigid waste-heat mandates. Why data centers must not be 30-year monoliths, but need built-in second-life versatility.",
+    },
+    image: "/images/projects/rechenzentrum-bebra.jpg",
+    imageAlt: {
+      de: "Moderne Rechenzentrumsinfrastruktur mit nachhaltiger Energie- und Abwärmeplanung — Shams Consult",
+      en: "Modern data center infrastructure with sustainable energy and waste heat planning — Shams Consult",
+    },
+    body: {
+      de: `**Wir planen Rechenzentren für eine Zukunft, die wir nicht kennen. Ist das mutig oder fahrlässig?**
+
+Die Daten deutscher Unternehmen, Behörden und Bürger liegen zu einem großen Teil auf Servern außereuropäischer Anbieter. Für kritische Infrastruktur (KRITIS) ist das kein IT-Detail, sondern eine Frage der Souveränität. Wer die Server betreibt, entscheidet im Zweifel mit, wer Zugriff hat.
+
+Die Antwort scheint einfach: eigene, autarke Rechenzentren in Deutschland. Daten bleiben hier und werden hier verarbeitet.
+
+Aber hier beginnt das Problem.
+
+---
+
+## 1. Wir wollen Souveränität, aber planen im Schneckentempo
+
+Bauleitplanung, Umweltprüfung, Artenschutz, Netzanschluss: Bis ein Rechenzentrum in Deutschland genehmigt und angeschlossen ist, vergehen Jahre.
+
+In manchen Regionen nennen Netzbetreiber zehn bis fünfzehn Jahre Wartezeit für die Anschlusskapazität. In dieser Zeit baut der Rest der Welt. Wenn Planungs- und Genehmigungsfristen länger dauern als technologische Innovationszyklen, gerät die digitale Souveränität ins Hintertreffen.
+
+## 2. Wo kommt die Energie her?
+
+Ein großes Rechenzentrum braucht so viel Strom wie eine Kleinstadt, und zwar rund um die Uhr.
+
+- Wind und PV über Direktverträge (PPAs)?
+- Eigene Batteriespeicher und Umspannwerke?
+- Gasturbinen, „H₂-ready“?
+- Oder sprechen wir in Deutschland irgendwann wieder über kleine modulare Reaktoren (SMRs)?
+
+Ehrlich gesagt: Ohne gesicherte Energie ist jede Souveränitätsdebatte ein Lippenbekenntnis.
+
+## 3. Und was ist mit der Wärme?
+
+Heute gilt: Rechenzentren erzeugen Abwärme, also nutzen wir sie für Wärmenetze, Gewächshäuser oder Quartiere. Dafür planen wir aufwendige Leitungen, Wärmepumpen und Übergabestationen.
+
+Was aber, wenn sich die Technik ändert? Wenn effizientere Chips, Flüssigkühlung oder neue Rechnerarchitekturen wie Quantencomputer ein ganz anderes Wärmeprofil haben? Und was, wenn der Gesetzgeber die Abwärmepflicht wieder aufweicht, wie es gerade diskutiert wird?
+
+Dann haben wir teure, komplexe Anlagen gebaut, die niemand mehr braucht. Ressourcen, Fläche und Geld wären dann umsonst investiert.
+
+---
+
+## Unsere Haltung als Planer: Die eingebaute zweite Chance
+
+Wir können die Zukunft nicht vorhersagen. Aber wir können so planen, dass sie uns nicht überrollt.
+
+Das heißt: **Rückbau und Nachnutzung gehören schon in den ersten Entwurf.** Tragwerk, Erschließung, Netzanschluss und Grundstückszuschnitt sollten so gedacht sein, dass derselbe Standort später einem anderen Zweck dienen kann, etwa als Energiespeicher, Logistik- oder Produktionsstandort oder Forschungscampus.
+
+Ein Rechenzentrum sollte kein Monolith für 30 Jahre sein, sondern eine Infrastruktur mit eingebauter zweiten Chance.
+
+---
+
+## Jetzt Ihre Meinung im Fachaustausch:
+
+- **Genehmigungsbeschleunigung:** Sollte der Staat Rechenzentren als KRITIS behandeln und Genehmigungsverfahren radikal beschleunigen, auch auf Kosten von Beteiligung und Prüftiefe?
+- **Energiequellen:** Welche Energiequelle ist für Sie realistisch: Erneuerbare plus Speicher, Gas oder Kernkraft?
+- **Abwärmenutzung:** Ist sie Pflicht für die Zukunft oder eine teure Fehlinvestition mit Ansage?
+
+Ich bin gespannt auf Widerspruch.
+
+---
+
+**Sie planen ein Rechenzentrum oder ein komplexes Infrastrukturprojekt?**
+
+[Erstgespräch mit Dipl.-Ing. Majeed Shams anfragen →](https://shams-consult.de)`,
+      en: `**We are planning data centers for a future we do not know. Is that brave or reckless?**
+
+A large portion of the data of German companies, public authorities, and citizens resides on servers owned by non-European providers. For critical infrastructure (KRITIS), this is not an IT detail, but a fundamental question of sovereignty: Whoever operates the servers ultimately decides who has access.
+
+The answer seems simple: proprietary, self-sufficient data centers in Germany. Data stays here and is processed here.
+
+But here is where the problem begins.
+
+---
+
+## 1. We Want Sovereignty, but Plan at a Snail's Pace
+
+Master zoning, environmental impact assessments, species protection, grid interconnection: it takes years before a data center in Germany is permitted and connected.
+
+In some regions, grid operators cite wait times of ten to fifteen years for grid connection capacity alone. During this time, the rest of the world is building. When planning procedures outlast technological hardware cycles, digital sovereignty falls behind.
+
+## 2. Where Does the Power Come From?
+
+A large-scale data center consumes as much electricity as a small town, 24/7.
+
+- Wind and solar via direct contracts (PPAs)?
+- On-site battery storage and substations?
+- Gas turbines, "H₂-ready"?
+- Or will Germany eventually talk about small modular reactors (SMRs) again?
+
+Frankly speaking: Without secured baseload energy, any debate about sovereignty remains lip service.
+
+## 3. And What About the Heat?
+
+Today's assumption is: Data centers generate waste heat, so let's use it for district heating networks, greenhouses, or urban quarters. For this, we plan elaborate pipelines, heat pumps, and transfer stations.
+
+What happens if technology changes? If more efficient chips, direct liquid cooling, or new computer architectures like quantum computers have an entirely different thermal profile? And what if legislators soften the waste heat obligations, as currently under debate?
+
+Then we will have built expensive, complex facilities that nobody needs anymore. Resources, land, and capital would have been invested in vain.
+
+---
+
+## Our Stance as Planners: A Built-in Second Life
+
+We cannot predict the future. But we can plan so that it does not overwhelm us.
+
+This means: **Deconstruction and adaptive reuse belong in the very first concept.** Structural frames, access routes, grid connections, and parcel layouts should be conceived so that the same site can serve another purpose later—such as energy storage, logistics, manufacturing, or a research campus.
+
+A data center should not be a monolith for 30 years, but infrastructure with a built-in second chance.
+
+---
+
+## Your Opinion in the Professional Discourse:
+
+- **Permitting Acceleration:** Should the government treat data centers as KRITIS and radically accelerate approval procedures, even at the cost of public participation and scrutiny depth?
+- **Energy Mix:** Which energy source is realistic for you: Renewables plus storage, gas, or nuclear?
+- **Waste Heat Mandate:** Is heat reuse an obligation for the future, or an expensive stranded asset waiting to happen?
+
+I look forward to hearing counter-perspectives.
+
+---
+
+**Planning a data center or complex infrastructure project?**
+
+[Request an initial consultation with Dipl.-Ing. Majeed Shams →](https://shams-consult.de)`,
+    },
+  },
+  {
     slug: "ganz-oben-bei-google-was-dahintersteckt",
     category: {
       de: "Architektur & Praxis",
