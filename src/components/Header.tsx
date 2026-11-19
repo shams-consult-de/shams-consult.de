@@ -61,6 +61,7 @@ export function Header({
     { label: t.aboutOffice, path: "/about" },
     { label: t.siteVisits, path: "/site-visits" },
     { label: t.research, path: "/research" },
+    { label: t.blog, path: "/blog" },
     { label: t.founder, path: "/founder" },
   ];
 
@@ -74,11 +75,11 @@ export function Header({
     { label: t.about, path: "/about", sectionId: undefined },
     { label: t.siteVisits, path: "/site-visits", sectionId: undefined },
     { label: t.research, path: "/research", sectionId: undefined },
+    { label: t.blog, path: "/blog", sectionId: undefined },
     { label: t.founder, path: "/founder", sectionId: undefined },
     { label: t.services, path: "/services", sectionId: "services" },
     { label: t.projects, path: "/projects", sectionId: undefined },
     { label: t.caseStudies, path: "/clients", sectionId: "case-studies" },
-    { label: t.blog, path: "/blog", sectionId: undefined },
     { label: t.contact, path: "/contact", sectionId: "contact" },
   ];
 
