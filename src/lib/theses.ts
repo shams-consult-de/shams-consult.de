@@ -10,6 +10,8 @@ export interface ThesisItem {
   summary: string;
   keyTakeaway: string;
   topics: string[];
+  pdfDownloadUrl?: string;
+  pdfFileName?: string;
 }
 
 export const thesesAndResearch: ThesisItem[] = [
@@ -27,6 +29,8 @@ export const thesesAndResearch: ThesisItem[] = [
     keyTakeaway:
       "Wirtschaftliche Entlastung für Bauherren durch qualifizierte Mobilitätskonzepte und Reduktion unnötiger Tiefgaragenkosten.",
     topics: ["Stellplatzsatzung", "Baugenehmigung", "Mobilitätskonzepte", "Wohnungsbau Hessen"],
+    pdfDownloadUrl: "/documents/theses/Shams-Consult_Fachpublikation_Stellplatzsatzung-im-Fokus.pdf",
+    pdfFileName: "Shams-Consult_Fachpublikation_Stellplatzsatzung-im-Fokus.pdf",
   },
   {
     id: "maengelmanagement",

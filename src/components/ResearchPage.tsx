@@ -368,8 +368,8 @@ export function ResearchPage({
                   )}
                 </div>
 
-                  {/* Topics Tag List */}
-                  <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
+                  {/* Topics Tag List & Actions */}
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2">
                     <div className="flex flex-wrap gap-1.5">
                       {item.topics.map((tItem, tIdx) => (
                         <span
@@ -380,6 +380,21 @@ export function ResearchPage({
                         </span>
                       ))}
                     </div>
+
+                    {item.pdfDownloadUrl && (
+                      <a
+                        href={item.pdfDownloadUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download={item.pdfFileName}
+                        className="inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-xl bg-zinc-950 hover:bg-[#DC2626] text-white text-xs font-semibold tracking-wide transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer shrink-0 min-h-[40px] touch-manipulation group"
+                        title={t.downloadPdf}
+                      >
+                        <Icon name="file-pdf" className="text-sm text-red-400 group-hover:text-white transition-colors" />
+                        <span>{t.downloadPdf}</span>
+                        <span className="text-[11px] text-zinc-400 group-hover:text-white transition-colors">↓</span>
+                      </a>
+                    )}
                   </div>
               </article>
             );
