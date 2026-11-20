@@ -92,13 +92,14 @@ export function Footer({ t, navT, servicesT, language = "de", onNavigate }: Foot
             </h4>
             <ul className="space-y-2 text-xs text-zinc-400">
               <li><a href={getLocalizedPath("/architektur-frankfurt", language)} onClick={(e) => handleNav(e, "/architektur-frankfurt")} className="hover:text-white transition-colors">Architektur Frankfurt</a></li>
+              <li><a href={getLocalizedPath("/architektur-offenbach", language)} onClick={(e) => handleNav(e, "/architektur-offenbach")} className="hover:text-white transition-colors">Architektur Offenbach am Main</a></li>
               <li><a href={getLocalizedPath("/architektur-bad-homburg", language)} onClick={(e) => handleNav(e, "/architektur-bad-homburg")} className="hover:text-white transition-colors">Architektur Bad Homburg & Taunus</a></li>
               <li><a href={getLocalizedPath("/architektur-wiesbaden", language)} onClick={(e) => handleNav(e, "/architektur-wiesbaden")} className="hover:text-white transition-colors">Architektur Wiesbaden</a></li>
               <li><a href={getLocalizedPath("/architektur-darmstadt", language)} onClick={(e) => handleNav(e, "/architektur-darmstadt")} className="hover:text-white transition-colors">Architektur Darmstadt & Südhessen</a></li>
               <li><a href={getLocalizedPath("/architektur-hanau", language)} onClick={(e) => handleNav(e, "/architektur-hanau")} className="hover:text-white transition-colors">Architektur Hanau & Main-Kinzig</a></li>
-              <li><a href={getLocalizedPath("/architektur-roedermark", language)} onClick={(e) => handleNav(e, "/architektur-roedermark")} className="hover:text-white transition-colors">Architektur Rödermark & Offenbach</a></li>
+              <li><a href={getLocalizedPath("/architektur-roedermark", language)} onClick={(e) => handleNav(e, "/architektur-roedermark")} className="hover:text-white transition-colors">Architektur Rödermark</a></li>
               <li><a href={getLocalizedPath("/architektur-dreieich", language)} onClick={(e) => handleNav(e, "/architektur-dreieich")} className="hover:text-white transition-colors">Architektur Dreieich</a></li>
-              <li><a href={getLocalizedPath("/stadtplanung-hessen", language)} onClick={(e) => handleNav(e, "/stadtplanung-hessen")} className="hover:text-white transition-colors">Bebauungsplan & Stadtplanung</a></li>
+              <li><a href={getLocalizedPath("/stadtplanung", language)} onClick={(e) => handleNav(e, "/stadtplanung")} className="hover:text-white transition-colors">Stadtplanungsbüro & Stadtplanung</a></li>
             </ul>
           </div>
 

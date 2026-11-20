@@ -730,18 +730,19 @@ export function App() {
         });
       }
 
+      const regCanonicalPath = activeRegionalPage.slug === "stadtplanung-hessen" ? "/stadtplanung" : activeRegionalPage.path;
       updatePageSeo({
         title: activeRegionalPage.metaTitle[language] ?? activeRegionalPage.metaTitle.de,
         description: activeRegionalPage.metaDescription[language] ?? activeRegionalPage.metaDescription.de,
-        canonicalUrl: `https://shams-consult.de${language === "en" ? "/en" : ""}${activeRegionalPage.path}`,
+        canonicalUrl: `https://shams-consult.de${language === "en" ? "/en" : ""}${regCanonicalPath}`,
         breadcrumbs: [
           { name: language === "en" ? "Home" : "Start", item: language === "en" ? "/en" : "/" },
-          { name: activeRegionalPage.eyebrow[language] ?? activeRegionalPage.eyebrow.de, item: `${language === "en" ? "/en" : ""}${activeRegionalPage.path}` },
+          { name: activeRegionalPage.eyebrow[language] ?? activeRegionalPage.eyebrow.de, item: `${language === "en" ? "/en" : ""}${regCanonicalPath}` },
         ],
         alternateLanguages: [
-          { lang: "de", href: `https://shams-consult.de${activeRegionalPage.path}` },
-          { lang: "en", href: `https://shams-consult.de/en${activeRegionalPage.path}` },
-          { lang: "x-default", href: `https://shams-consult.de${activeRegionalPage.path}` },
+          { lang: "de", href: `https://shams-consult.de${regCanonicalPath}` },
+          { lang: "en", href: `https://shams-consult.de/en${regCanonicalPath}` },
+          { lang: "x-default", href: `https://shams-consult.de${regCanonicalPath}` },
         ],
         customJsonLd: {
           "@context": "https://schema.org",
