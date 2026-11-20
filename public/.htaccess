@@ -99,9 +99,9 @@ ErrorDocument 404 /404.html
   RewriteCond %{REQUEST_URI} ^/+(?:digitalisierungsberatung.*) [NC]
   RewriteRule ^ https://shams-consult.de/services [R=301,L]
 
-  # Services: Stadtplanung & Städtebau (strictly matched to not interfere with /stadtplanung-hessen)
-  RewriteCond %{REQUEST_URI} ^/+(?:stadtplanung|stadtplanung-st[^\/]*tebau)/?$ [NC]
-  RewriteRule ^ https://shams-consult.de/stadtplanung-hessen [R=301,L]
+  # Services: Städtebau legacy URLs -> /stadtplanung
+  RewriteCond %{REQUEST_URI} ^/+(?:stadtplanung-st[^\/]*tebau)/?$ [NC]
+  RewriteRule ^ https://shams-consult.de/stadtplanung [R=301,L]
 
   # Services: Vorhabenbezogene Bebauungspläne
   RewriteCond %{REQUEST_URI} ^/+(?:vorhabenbezogene-bebauungspl.*) [NC]
@@ -153,6 +153,10 @@ ErrorDocument 404 /404.html
   # Contact aliases
   RewriteRule ^en/(?:kontakt|beratung|termin)(?:\.html)?/?$ https://shams-consult.de/en/contact [R=301,L,NC]
   RewriteRule ^(?:kontakt|beratung|termin)(?:\.html)?/?$ https://shams-consult.de/contact [R=301,L,NC]
+
+  # Stadtplanung alias redirect (/stadtplanung-hessen -> /stadtplanung)
+  RewriteRule ^en/(?:stadtplanung-hessen)(?:\.html)?/?$ https://shams-consult.de/en/stadtplanung [R=301,L,NC]
+  RewriteRule ^(?:stadtplanung-hessen)(?:\.html)?/?$ https://shams-consult.de/stadtplanung [R=301,L,NC]
 
   # Services aliases (strictly delimited to avoid affecting /architektur-frankfurt etc.)
   RewriteRule ^en/(?:leistungen|hoai|architektur)(?:\.html)?/?$ https://shams-consult.de/en/services [R=301,L,NC]

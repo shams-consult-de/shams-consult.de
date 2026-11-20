@@ -803,7 +803,11 @@ async function generateStaticRoutes() {
 
     const isSuburb = Boolean(page.parentPath);
     const parentPathEn = page.parentPath ? `/en${page.parentPath}` : `/en${page.path}`;
-    const enCanonical = isSuburb ? `${SITE_URL}${parentPathEn}` : `${SITE_URL}/en${page.path}`;
+    const isStadtplanungHessenAlias = page.slug === "stadtplanung-hessen";
+    const deCanonical = isStadtplanungHessenAlias ? `${SITE_URL}/stadtplanung` : `${SITE_URL}${page.path}`;
+    const enCanonical = isStadtplanungHessenAlias 
+      ? `${SITE_URL}/en/stadtplanung`
+      : (isSuburb ? `${SITE_URL}${parentPathEn}` : `${SITE_URL}/en${page.path}`);
 
     const hreflangs = isSuburb
       ? [
@@ -878,12 +882,13 @@ async function generateStaticRoutes() {
     routeConfigs.set(page.path, {
       pageType: "regional",
       pageData: page,
+      isAlias: isStadtplanungHessenAlias,
       h1: h1De,
       subtitle: subtitleDe,
       eyebrow: eyebrowDe,
       title: metaTitleDe,
       description: metaDescriptionDe,
-      canonicalUrl: `${SITE_URL}${page.path}`,
+      canonicalUrl: deCanonical,
       breadcrumbs: [
         { name: "Home", item: "/" },
         { name: eyebrowDe, item: page.path },
@@ -902,6 +907,7 @@ async function generateStaticRoutes() {
     routeConfigs.set(`/en${page.path}`, {
       pageType: "regional",
       pageData: page,
+      isAlias: isStadtplanungHessenAlias,
       h1: h1En,
       subtitle: subtitleEn,
       eyebrow: eyebrowEn,

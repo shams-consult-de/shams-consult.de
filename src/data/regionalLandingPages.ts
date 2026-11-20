@@ -1235,6 +1235,16 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
           en: "Yes. Under HOAI Work Phase 8, we direct comprehensive on-site supervision. We inspect contractor craftsmanship per VOB standards, verify invoices, and safeguard delivery milestones and construction budgets.",
         },
       },
+      {
+        question: {
+          de: "Was ist beim Bauamt Rödermark und den lokalen Bebauungsplänen zu beachten?",
+          en: "What should be considered regarding the Rödermark Building Department and local zoning plans?",
+        },
+        answer: {
+          de: "In Rödermark (Ober-Roden und Urberach) existieren teils detaillierte Bebauungspläne mit Festsetzungen zu Geschossflächenzahl (GFZ), Grundflächenzahl (GRZ), Dachneigung und Firsthöhen. Im historischen Ortskern greift oft das Einfügungsgebot (§ 34 BauGB). Wir prüfen vorab die Machbarkeit, klären Entwässerungs- und Retentionsnachweise und führen Bauanträge zügig durch die Untere Bauaufsichtsbehörde des Kreises Offenbach im Kreishaus Dietzenbach.",
+          en: "In Rödermark (Ober-Roden and Urberach), specific master plans regulate floor-area ratios, site coverage, roof pitch, and ridge heights, while historical centers are governed by context insertion (§ 34 BauGB). We verify site feasibility in advance, calculate stormwater retention proofs, and submit streamlined building applications to the Offenbach District Building Authority in Dietzenbach.",
+        },
+      },
     ],
   },
 
@@ -1715,31 +1725,36 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
     slug: "stadtplanung-hessen",
     path: "/stadtplanung-hessen",
     h1: {
-      de: "Bebauungsplan erstellen Hessen — Bauleitplanung & VEP",
-      en: "Urban Master Plans Hesse — Zoning By-laws & Project Development Plans",
+      de: "Stadtplanungsbüro & Stadtplanung Hessen — Bauleitplanung & B-Plan",
+      en: "Urban Planning Practice Hesse — Master Planning, Zoning & Project Plans",
     },
     eyebrow: {
-      de: "Stadtplanung, Bauleitplanung & VEP in Hessen",
-      en: "Urban Planning, Zoning & Project Plans in Hesse",
+      de: "Stadtplanungsbüro & Stadtplanung Hessen",
+      en: "Urban Planning Practice & Master Planning Hesse",
     },
     subtitle: {
-      de: "Städtebauliche Expertise für Kommunen, Bauträger und institutionelle Investoren. Von der ersten Machbarkeitsstudie über den Vorhaben- und Erschließungsplan (VEP) bis zum rechtskräftigen Bebauungsplan (B-Plan) nach BauGB.",
-      en: "Urban planning expertise for municipalities, commercial property developers, and institutional investors. From initial spatial feasibility through project plans (VEP) to legally binding local zoning statutes (B-Plan).",
+      de: "Städtebauliche Expertise für Kommunen, Bauträger und institutionelle Investoren in Frankfurt und Hessen. Von städtebaulichen Machbarkeitsstudien über den Vorhaben- und Erschließungsplan (VEP) bis zum rechtskräftigen Bebauungsplan (B-Plan) nach BauGB.",
+      en: "Urban planning expertise for municipalities, commercial property developers, and institutional investors across Frankfurt and Hesse. From spatial feasibility studies through project plans (VEP) to legally binding local zoning statutes (B-Plan).",
     },
     targetKeywords: [
+      "Stadtplanung",
+      "Stadtplaner",
+      "Stadtplanungsbüro Frankfurt",
+      "Stadtplanung Hessen",
+      "Stadtplaner Frankfurt",
+      "Stadtplanung Architektur",
       "Bebauungsplan erstellen Hessen",
       "Bauleitplanung Frankfurt",
       "Vorhaben- und Erschließungsplan Hessen",
-      "Stadtplaner Frankfurt",
       "Städtebauliche Machbarkeitsstudie Hessen",
     ],
     metaTitle: {
-      de: "Stadtplanung & Bauleitplanung Hessen — B-Plan & VEP | Shams Consult",
-      en: "Urban Master Plans Hesse — Zoning & Urban Planning | Shams Consult",
+      de: "Stadtplanungsbüro Frankfurt & Hessen — Stadtplanung & B-Plan | Shams Consult",
+      en: "Urban Planning Practice Frankfurt & Hesse — Master Plans | Shams Consult",
     },
     metaDescription: {
-      de: "Staatlich anerkannte Stadtplanung in Hessen: Bebauungspläne (B-Plan), VEP & Machbarkeitsstudien. AKH Hessen Nr. 21886. Jetzt unverbindlich beraten lassen!",
-      en: "Urban & master planning in Hesse: statutory zoning plans (B-Plan), project development plans (VEP), and feasibility studies. AKH planner Dipl.-Ing. Majeed Shams.",
+      de: "Staatlich anerkanntes Stadtplanungsbüro in Hessen (AKH Nr. 21886): Bebauungspläne (B-Plan), VEP, Nachverdichtung & städtebauliche Rahmenplanung. Jetzt anfragen!",
+      en: "Licensed urban planning practice in Hesse (AKH No. 21886): Master plans, statutory zoning (B-Plan), urban infill & feasibility audits. Consult with Dipl.-Ing. Majeed Shams.",
     },
     heroHighlights: [
       {
@@ -1987,6 +2002,16 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
           en: "We serve both municipalities across Hesse and private institutional developers, corporations, and builders seeking binding development rights for new residential quarters or industrial parks.",
         },
       },
+      {
+        question: {
+          de: "Welche Aufgaben übernimmt ein Stadtplanungsbüro im Vergleich zum Architekturbüro?",
+          en: "What does an urban planning practice handle compared to a pure architecture studio?",
+        },
+        answer: {
+          de: "Während ein Architekturbüro einzelne Gebäude und Baukörper (HOAI LPH 1–9) plant, schafft ein Stadtplanungsbüro das übergeordnete Baurecht: städtebauliche Rahmenpläne, Flächennutzungs- und Bebauungspläne (B-Plan), Nachverdichtungskonzepte und Erschließungsplanungen. Bei Shams Consult profitieren Sie von beiden Disziplinen aus einer Hand: Dipl.-Ing. Majeed Shams ist sowohl als Architekt als auch als freier Stadtplaner bei der AKH Hessen eingetragen.",
+          en: "While an architectural office designs individual buildings (HOAI phases 1–9), an urban planning practice creates the overarching legal framework: master plans, statutory zoning by-laws (B-Plan), urban infill strategies, and infrastructure planning. At Shams Consult, you benefit from both disciplines united under registered architect and urban planner Dipl.-Ing. Majeed Shams.",
+        },
+      },
     ],
   },
 
@@ -2015,12 +2040,12 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
       "Mehrfamilienhaus Wiesbaden planen",
     ],
     metaTitle: {
-      de: "Architekturbüro Wiesbaden — Architekt & Bauantrag | Shams Consult",
-      en: "Architectural Practice Wiesbaden — Design & Permits | Shams Consult",
+      de: "Architekturbüro Wiesbaden — Villen, Bauantrag & Sanierung | Shams Consult",
+      en: "Architectural Practice Wiesbaden — Luxury Villas & Permits | Shams Consult",
     },
     metaDescription: {
-      de: "Staatlich anerkanntes Architekturbüro für Wiesbaden (AKH Hessen). Hochwertige Villenplanung, Denkmalschutz, HOAI Leistungsphasen 1–9. Jetzt Erstgespräch vereinbaren.",
-      en: "State-recognized architecture practice for Wiesbaden (AKH Hesse). Luxury villa design, heritage retrofits, full HOAI phases 1–9. Book your consultation today.",
+      de: "Architekturbüro in Wiesbaden (AKH Hessen Nr. 21886): Villenbau, Sanierungen, Bauantrag beim Bauaufsichtsamt & HOAI 1–9. Schnell & genehmigungssicher. Jetzt anfragen!",
+      en: "Architectural practice in Wiesbaden (AKH Hesse No. 21886): Villa design, heritage retrofits, permit applications & HOAI 1–9. Fast & permit-secure. Contact us today!",
     },
     heroHighlights: [
       {
@@ -2541,12 +2566,12 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
       "Baugenehmigung Hochtaunuskreis",
     ],
     metaTitle: {
-      de: "Architekturbüro Bad Homburg — Architekt & Bauantrag | Shams Consult",
-      en: "Architectural Practice Bad Homburg — Design & Permits | Shams Consult",
+      de: "Architekturbüro Bad Homburg — Villen, Bauantrag & Taunus | Shams Consult",
+      en: "Architectural Practice Bad Homburg — Villas & Permits | Shams Consult",
     },
     metaDescription: {
-      de: "Staatlich anerkanntes Architekturbüro für Bad Homburg & Taunus (AKH Hessen). Exklusive Villen, denkmalgeschützte Sanierung, HOAI Leistungsphasen 1–9. Erstgespräch vereinbaren.",
-      en: "State-recognized architecture practice for Bad Homburg & Taunus (AKH Hesse). Bespoke villas, listed heritage retrofits, full HOAI phases 1–9. Book your consultation.",
+      de: "Architekt & Innenarchitektur in Bad Homburg & Hochtaunus (AKH Nr. 21886): Exklusive Villen, Sanierung & rechtssichere Bauanträge nach HBO (HOAI 1–9). Jetzt anfragen!",
+      en: "Architecture & interior design in Bad Homburg & Hochtaunus (AKH No. 21886): Luxury villas, retrofits & statutory building permits per HBO (HOAI 1–9). Inquire now!",
     },
     heroHighlights: [
       {
@@ -3067,12 +3092,12 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
       "Mehrfamilienhaus Darmstadt planen",
     ],
     metaTitle: {
-      de: "Architekturbüro Darmstadt — Bauantrag & Bauaufsichtsamt | Shams Consult",
-      en: "Architectural Practice Darmstadt — Design & Permits | Shams Consult",
+      de: "Architekturbüro Darmstadt — Bauantrag, Baurecht & Neubau | Shams Consult",
+      en: "Architectural Practice Darmstadt — Permits, Zoning & Design | Shams Consult",
     },
     metaDescription: {
-      de: "Architekturbüro für Darmstadt & Südhessen: Rechtssichere Bauanträge beim Bauamt Darmstadt, KfW 40, Wohnungs- & Gewerbebau (HOAI 1–9). AKH. Jetzt beraten lassen!",
-      en: "State-recognized architecture practice for Darmstadt & South Hesse (AKH Hesse). Premium residential, KfW 40, HOAI 1–9. Schedule a consultation.",
+      de: "Architekt in Darmstadt & Südhessen (AKH Hessen Nr. 21886): Rechtssichere Bauanträge, Bauvoranfragen beim Bauaufsichtsamt & KfW-40 Neubau. Jetzt beraten lassen!",
+      en: "Registered architect for Darmstadt & South Hesse (AKH Hesse No. 21886): Streamlined building permits, zoning inquiries & KfW 40 housing. Book a consultation.",
     },
     heroHighlights: [
       {
@@ -3564,6 +3589,26 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
           en: "Under the federal KfW 'Climate-Friendly New Construction' programme (KFN), developers can secure low-interest loans up to €150,000 per residential unit when certified with the QNG green seal, which we integrate from initial concept.",
         },
       },
+      {
+        question: {
+          de: "Wie läuft eine Bauvoranfrage beim Bauaufsichtsamt Darmstadt ab und wann lohnt sie sich?",
+          en: "How does a preliminary building inquiry work in Darmstadt and when is it worthwhile?",
+        },
+        answer: {
+          de: "Eine Bauvoranfrage (Bauvorbescheid nach § 66 HBO) empfiehlt sich in Darmstadt besonders dann, wenn die Bebaubarkeit eines Grundstücks im Innenbereich nach § 34 BauGB unklar ist, Befreiungen von einem Bebauungsplan erforderlich sind oder eine Nutzungsänderung geprüft werden soll. Das Bauaufsichtsamt Darmstadt bindet sich mit dem Bauvorbescheid für drei Jahre an die getroffene Entscheidung. Shams Consult erstellt die erforderlichen planungsrechtlichen Unterlagen und stimmt diese vorab gezielt mit den Behördenvertretern ab.",
+          en: "A preliminary building application (Bauvorbescheid per § 66 HBO) is highly recommended in Darmstadt whenever land development rights under § 34 BauGB are ambiguous, zoning exemptions are sought, or a change of use must be verified. The Darmstadt Building Authority's formal notice remains legally binding for three years. Shams Consult compiles all required planning documents and aligns directly with municipal officers.",
+        },
+      },
+      {
+        question: {
+          de: "Unterstützt Shams Consult bei Nutzungsänderungen und Baurechtsprüfungen in Darmstadt?",
+          en: "Does Shams Consult assist with changes of use and building code audits in Darmstadt?",
+        },
+        answer: {
+          de: "Ja. Nutzungsänderungen (z. B. von Gewerbe- in Wohnraum, Praxisräume oder Gastronomie) erfordern nach der Hessischen Bauordnung (HBO) eine formelle Genehmigung. Wir führen die planungsrechtliche Prüfung durch, weisen Stellplätze sowie Brandschutz nach und begleiten Sie bis zur behördlichen Bauabnahme und Freigabe.",
+          en: "Yes. Changes of use (e.g., converting commercial space to residential units, medical practices, or hospitality) require formal municipal approval under Hessian building regulations (HBO). We assess planning compliance, verify parking and fire safety requirements, and guide you through final building inspection and occupancy sign-off.",
+        },
+      },
     ],
   },
 
@@ -3593,12 +3638,12 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
       "Projektentwicklung Hanau",
     ],
     metaTitle: {
-      de: "Architekt & Architekturbüro Hanau — Bauantrag & Neubau | Shams Consult",
-      en: "Architectural Practice Hanau — Design & Permits | Shams Consult",
+      de: "Architekturbüro Hanau — Baugenehmigung, Bauantrag & Neubau | Shams Consult",
+      en: "Architectural Practice Hanau — Permits, Infill & Design | Shams Consult",
     },
     metaDescription: {
-      de: "Ihr Architekt in Hanau & Main-Kinzig: Rechtssichere Bauanträge nach HBO, Neubau, Sanierung & HOAI 1–9. AKH Hessen Nr. 21886. Jetzt Erstgespräch vereinbaren!",
-      en: "State-recognized architecture practice for Hanau & Main-Kinzig (AKH Hesse). Residential, commercial, HBO building permits, full HOAI 1–9. Contact us.",
+      de: "Staatlich anerkannter Architekt in Hanau (AKH Nr. 21886): Rechtssichere Bauanträge nach HBO, Neubau & Sanierung. Schnelle behördliche Abwicklung. Jetzt anfragen!",
+      en: "State-recognized architect in Hanau (AKH Hesse No. 21886): Building permits per HBO, residential new builds & conversions. Accelerated municipal approvals. Inquire now!",
     },
     heroHighlights: [
       {
@@ -4090,11 +4135,503 @@ const baseRegionalLandingPages: Record<string, RegionalLandingPageData> = {
           en: "Yes. With our official registration as licensed urban planners (AKH Hesse), we develop urban master plans, feasibility audits, and project-based zoning plans (§ 12 BauGB) for investors and municipalities across the Main-Kinzig district.",
         },
       },
+      {
+        question: {
+          de: "Wann empfiehlt sich eine Bauvoranfrage bei der Bauaufsicht Stadt Hanau?",
+          en: "When is a preliminary zoning inquiry advisable with Hanau Building Department?",
+        },
+        answer: {
+          de: "Eine Bauvoranfrage ist in Hanau insbesondere bei schwierigen Grundstücken, Vorhaben im Geltungsbereich von Konversionssatzungen oder bei gewünschten Abweichungen vom Bebauungsplan sinnvoll. Der rechtsverbindliche Vorbescheid gibt Ihnen Planungssicherheit, bevor Sie in die vertiefte Ausführungsplanung investieren.",
+          en: "A preliminary building inquiry is particularly advisable in Hanau for complex plots, projects governed by redevelopment statutes, or requested zoning variances. The binding preliminary notice gives full legal certainty before committing to detailed design investment.",
+        },
+      },
+    ],
+  },
+
+  "architektur-offenbach": {
+    slug: "architektur-offenbach",
+    path: "/architektur-offenbach",
+    h1: {
+      de: "Architekturbüro Offenbach am Main — Architektur, Micro-Living & Bauantrag",
+      en: "Architectural Practice Offenbach am Main — Design, Micro-Living & Permits",
+    },
+    eyebrow: {
+      de: "Architektur & Stadtplanung Offenbach am Main",
+      en: "Architecture & Urban Planning Offenbach am Main",
+    },
+    subtitle: {
+      de: "Ihr staatlich anerkanntes Architekturbüro (AKH Hessen Nr. 21886) für Offenbach am Main, Kaiserlei, Hafen und Bieber. Neubau von Mehrfamilienhäusern, Micro-Apartments, Aufstockungen und rechtssichere Bauanträge beim Bauaufsichtsamt Offenbach.",
+      en: "State-recognized architecture practice (AKH Hesse No. 21886) for Offenbach am Main, Kaiserlei, Hafen, and Bieber. Contemporary multi-family housing, micro-apartments, conversions, and permits with Offenbach municipal building authorities.",
+    },
+    targetKeywords: [
+      "Architekturbüro Offenbach",
+      "Architekt Offenbach",
+      "Architektur Offenbach am Main",
+      "Bauamt Offenbach",
+      "Micro Apartments Offenbach",
+      "Bauantrag Offenbach",
+      "Nutzungsänderung Offenbach",
+      "HOAI Leistungsphasen Offenbach",
+      "Architekt Kaiserlei Offenbach",
+      "Baugenehmigung Stadt Offenbach",
+    ],
+    metaTitle: {
+      de: "Architekturbüro Offenbach am Main — Bauantrag & Micro-Living | Shams Consult",
+      en: "Architectural Practice Offenbach am Main — Housing & Permits | Shams Consult",
+    },
+    metaDescription: {
+      de: "Architekturbüro in Offenbach am Main (AKH Hessen Nr. 21886): Wohnungsbau, Micro-Apartments, Nachverdichtung & Bauanträge beim Bauaufsichtsamt Offenbach. Jetzt anfragen!",
+      en: "Architectural practice for Offenbach am Main: Multi-family housing, micro-apartments, conversions & rapid HBO building permits. Book a consultation.",
+    },
+    heroHighlights: [
+      {
+        de: "Direkte Vor-Ort-Betreuung in Offenbach am Main, Kaiserlei, Hafen & Bieber",
+        en: "Direct on-site management in Offenbach am Main, Kaiserlei, Hafen & Bieber",
+      },
+      {
+        de: "Uneingeschränkte Bauvorlageberechtigung (AKH Hessen Nr. 21886)",
+        en: "Full building permit filing authorization (AKH Hesse No. 21886)",
+      },
+      {
+        de: "Expertise in modernem Wohnungsbau, Micro-Apartments & Nachverdichtung (§ 34 BauGB)",
+        en: "Specialized in contemporary residential developments, micro-apartments & infill (§ 34 BauGB)",
+      },
+      {
+        de: "Rechtssichere Genehmigungsverfahren beim Bauaufsichtsamt Stadt Offenbach",
+        en: "Streamlined permit procedures with the City of Offenbach Building Authority",
+      },
+    ],
+    localFocusTitle: {
+      de: "Dynamische Stadtentwicklung & Nachverdichtung in Offenbach am Main",
+      en: "Dynamic Urban Growth & Infill Housing in Offenbach am Main",
+    },
+    localFocusDescription: {
+      de: "Offenbach am Main wandelt sich rasant vom Industriestandort zum gefragten Wohn- und Kreativknotenpunkt der Metropolregion Frankfurt Rhein-Main. Ob moderne Micro-Apartments, innovative Wohnkonzepte am Hafen, Sanierungen im Westend oder Nachverdichtungen in Bieber und Bürgel: Shams Consult sorgt für architektonische Exzellenz, optimale Raumausnutzung und reibungslose Genehmigungsverfahren beim Bauaufsichtsamt Offenbach.",
+      en: "Offenbach am Main is rapidly transforming into a sought-after residential and creative hub within the Frankfurt Rhine-Main metropolitan region. Whether micro-apartments, harbour living schemes, heritage retrofits, or suburban infill: Shams Consult guarantees architectural excellence and streamlined municipal permit approvals.",
+    },
+    localProjects: [
+      {
+        id: "dreieich-mfh",
+        title: {
+          de: "Mehrfamilienhaus mit 6 Wohneinheiten & Micro-Living",
+          en: "Multi-Family Residential Scheme with 6 Units & Micro-Living",
+        },
+        category: {
+          de: "Wohnungsbau & Energieeffizienz",
+          en: "Residential & Energy Efficiency",
+        },
+        location: {
+          de: "Offenbach & Rhein-Main-Gebiet",
+          en: "Offenbach & Rhine-Main Region",
+        },
+        year: "2024",
+        image: "/images/dreieich_mfh_neu.jpg",
+        imageAlt: {
+          de: "Modernes Mehrfamilienhaus mit QNG-Nachhaltigkeitszertifizierung",
+          en: "Modern multi-family residential building with QNG certification",
+        },
+        specs: [
+          {
+            label: { de: "Wohneinheiten", en: "Residential Units" },
+            value: { de: "6 Wohneinheiten / Apartments", en: "6 Residential Units" },
+          },
+          {
+            label: { de: "Wohnfläche", en: "Living Area" },
+            value: { de: "ca. 490 m²", en: "approx. 490 m²" },
+          },
+          {
+            label: { de: "Zertifizierung", en: "Certification" },
+            value: { de: "QNG Nachhaltigkeitssiegel", en: "Official QNG Green Seal" },
+          },
+          {
+            label: { de: "Bauweise", en: "Construction" },
+            value: { de: "Massivbau & Gründach", en: "Solid Masonry & Green Roof" },
+          },
+        ],
+        overview: {
+          de: "Wirtschaftlicher Geschosswohnungsbau mit modernen Grundrissen, Aufzug und Gründach. Schnelle Baugenehmigung im verdichteten Siedlungsbereich und maximale Energieeffizienz nach KfW-40-Standard.",
+          en: "Economically optimized apartment building with modern layouts, elevator, and green roof. Rapid municipal approval in densified residential districts with top KfW 40 energy performance.",
+        },
+        keyFacts: [
+          {
+            de: "Rechtskonforme Genehmigung nach § 34 BauGB im Innenbereich",
+            en: "Permit compliance under Section 34 BauGB in urban infill zone",
+          },
+          {
+            de: "Einsatz regenerativer Energien und Begrünungskonzept",
+            en: "Integration of renewable energy systems and green roof design",
+          },
+          {
+            de: "Zuverlässige Kosten- und Termintreue von LPH 1 bis 9",
+            en: "Strict cost certainty and milestone adherence across HOAI phases 1–9",
+          },
+        ],
+      },
+      {
+        id: "stadtvilla-roedermark",
+        title: {
+          de: "Moderne Stadtvilla & Exklusiver Wohnungsbau",
+          en: "Contemporary Urban Villa & Premium Residential",
+        },
+        category: {
+          de: "Exklusiver Wohnungsbau",
+          en: "Exclusive Residential",
+        },
+        location: {
+          de: "Offenbach-Waldheim & Rhein-Main",
+          en: "Offenbach-Waldheim & Rhine-Main",
+        },
+        year: "2023",
+        image: "/images/stadtvilla_mfa_roedermark.jpg",
+        imageAlt: {
+          de: "Moderne Stadtvilla mit skulpturaler Formensprache",
+          en: "Modern urban villa with contemporary geometry",
+        },
+        specs: [
+          {
+            label: { de: "Wohnfläche", en: "Living Area" },
+            value: { de: "ca. 340 m²", en: "approx. 340 m²" },
+          },
+          {
+            label: { de: "Energiestandard", en: "Energy Standard" },
+            value: { de: "KfW-Effizienzhaus 40", en: "KfW Efficiency House 40" },
+          },
+          {
+            label: { de: "Bauweise", en: "Construction" },
+            value: { de: "Massivbau & Glasfassade", en: "Solid Masonry & Glazing" },
+          },
+          {
+            label: { de: "Genehmigung", en: "Permit Procedure" },
+            value: { de: "HBO Baugenehmigung", en: "HBO Building Permit" },
+          },
+        ],
+        overview: {
+          de: "Repräsentativer Wohnungsbau im Rhein-Main-Raum mit lichtdurchfluteten Räumen, offener Grundrissgestaltung und moderner Wärmepumpentechnik.",
+          en: "Prestigious residence in the Rhine-Main region with generous natural lighting, open-plan zoning, and contemporary heat pump engineering.",
+        },
+        keyFacts: [
+          {
+            de: "Individuelle Architektur mit fließenden Übergängen zum Außenraum",
+            en: "Bespoke architectural design with seamless indoor-outdoor transitions",
+          },
+          {
+            de: "Photovoltaik & nachhaltiges Wärmekonzept",
+            en: "Rooftop solar PV & sustainable thermal heating system",
+          },
+          {
+            de: "Komplettbetreuung von der Vorplanung bis zur Bauleitung (HOAI 1–9)",
+            en: "Comprehensive management from preliminary concept to site supervision (HOAI 1–9)",
+          },
+        ],
+      },
+    ],
+    hoaiPhases: [
+      {
+        phase: "LPH 1–2",
+        title: {
+          de: "Grundlagenermittlung & Vorplanung",
+          en: "Site Assessment & Preliminary Design",
+        },
+        description: {
+          de: "Standort- und Baurechtsanalyse in Offenbach, Abstimmung mit Bebauungsplänen und städtebauliche Vorentwürfe.",
+          en: "Site and zoning analysis in Offenbach, alignment with local master plans and preliminary concept drawings.",
+        },
+        deliverables: [
+          { de: "Standort- & Machbarkeitsanalyse", en: "Site & feasibility study" },
+          { de: "Städtebaulicher Vorentwurf", en: "Preliminary design sketches" },
+          { de: "Kostenschätzung nach DIN 276", en: "Cost estimate per DIN 276" },
+        ],
+      },
+      {
+        phase: "LPH 3–4",
+        title: {
+          de: "Entwurfs- & Genehmigungsplanung",
+          en: "Detailed Design & Permit Filing",
+        },
+        description: {
+          de: "Vollständige Ausarbeitung der Bauantragsunterlagen zur zügigen Genehmigung beim Bauaufsichtsamt Stadt Offenbach.",
+          en: "Comprehensive preparation of permit drawings for fast-track approval with the Offenbach Building Authority.",
+        },
+        deliverables: [
+          { de: "Prüffähiger Bauantrag nach HBO", en: "Verified building application per HBO" },
+          { de: "Stellplatz- & Abstandsflächennachweise", en: "Parking & setback calculations" },
+          { de: "Kostenberechnung nach DIN 276", en: "Itemized cost calculation per DIN 276" },
+        ],
+      },
+      {
+        phase: "LPH 5–7",
+        title: {
+          de: "Ausführungsplanung & Ausschreibung",
+          en: "Working Drawings & Tendering",
+        },
+        description: {
+          de: "Detaillierte Werkpläne (1:50 bis 1:1), VOB-konforme Leistungsverzeichnisse und Vergabeempfehlungen.",
+          en: "Detailed construction drawings (1:50 to 1:1), VOB-compliant tender packages, and procurement recommendations.",
+        },
+        deliverables: [
+          { de: "Werk- & Detailpläne", en: "Working & joinery details" },
+          { de: "Leistungsverzeichnisse (VOB)", en: "VOB-compliant tender specifications" },
+          { de: "Preisspiegel & Vergabevorschläge", en: "Bid evaluations & contract awards" },
+        ],
+      },
+      {
+        phase: "LPH 8–9",
+        title: {
+          de: "Bauüberwachung & Objektbetreuung",
+          en: "Site Supervision & Final Handover",
+        },
+        description: {
+          de: "Engmaschige Bauleitung vor Ort in Offenbach, Qualitätskontrolle, Rechnungsprüfung und schlüsselfertige Abnahme.",
+          en: "Strict on-site management in Offenbach, quality inspections, invoice verification, and turnkey building handover.",
+        },
+        deliverables: [
+          { de: "Laufende Baukontrolle & Protokolle", en: "Continuous site inspections & reports" },
+          { de: "Rechnungs- & Nachtragsprüfung", en: "Invoice audits & change-order tracking" },
+          { de: "Mängelfreie Bauabnahme", en: "Flawless handover sign-off" },
+        ],
+      },
+    ],
+    office: {
+      name: {
+        de: "Projektbüro Offenbach & Rhein-Main",
+        en: "Project Office Offenbach & Rhine-Main",
+      },
+      street: "Carl-von-Noorden-Platz 5 (Direkt angebunden via Frankfurt-Süd) & Vor-Ort-Termine Offenbach",
+      city: {
+        de: "63065 Offenbach am Main & 60596 Frankfurt am Main",
+        en: "63065 Offenbach am Main & 60596 Frankfurt am Main",
+      },
+      phone: "069 667 748 40",
+      phoneHref: "tel:+496966774840",
+      mapEmbedUrl:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41040.54714152865!2d8.7303038!3d50.1005831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0e6c27e02cc7%3A0x422435029b0c5f0!2sOffenbach%20am%20Main!5e0!3m2!1sde!2sde!4v1710000000000!5m2!1sde!2sde",
+    },
+    localRegulations: [
+      {
+        title: {
+          de: "Bauaufsichtsamt Stadt Offenbach (Berliner Straße)",
+          en: "City of Offenbach Building Authority (Berliner Straße)",
+        },
+        description: {
+          de: "Direkte und strukturierte Kommunikation mit der Bauaufsicht Offenbach am Main für eine zügige Genehmigung im vereinfachten (§ 65 HBO) sowie im Vollverfahren.",
+          en: "Direct and streamlined workflows with Offenbach municipal planning officers for accelerated approvals under simplified and full procedures.",
+        },
+      },
+      {
+        title: {
+          de: "Nutzungsänderungen & Micro-Apartments im Innenbereich (§ 34 BauGB)",
+          en: "Change of Use & Micro-Apartments in Urban Infill Zones (§ 34 BauGB)",
+        },
+        description: {
+          de: "Rechtssichere Führung von Genehmigungsverfahren zur Umnutzung gewerblicher Flächen in Wohn- und Micro-Apartment-Konzepte unter Einhaltung aller brandschutztechnischen und bauordnungsrechtlichen Maßgaben.",
+          en: "Legally robust management of conversion procedures from commercial assets into residential and micro-living schemes per fire and building safety codes.",
+        },
+      },
+      {
+        title: {
+          de: "Klimaanpassung, Starkregenschutz & Begrünungssatzung",
+          en: "Climate Resilience, Stormwater Defense & Green Roof Bylaws",
+        },
+        description: {
+          de: "Fundierte Berücksichtigung der Offenbacher Leitlinien zur Klimaanpassung: Gründächer, Retentionsversickerung und nachhaltige Fassadenbegrünung.",
+          en: "Systematic integration of municipal climate guidelines: extensive green roofs, infiltration systems, and living facade greening.",
+        },
+      },
+    ],
+    districts: [
+      {
+        id: "offenbach-hafen-kaiserlei",
+        name: {
+          de: "Kaiserlei, Hafen Offenbach & Nordend",
+          en: "Kaiserlei, Hafen Offenbach & Nordend",
+        },
+        suburbs: {
+          de: "Kaiserlei, Hafenviertel, Nordend, Bernard-Quartier",
+          en: "Kaiserlei, Hafenviertel, Nordend, Bernard-Quartier",
+        },
+        badge: {
+          de: "Wachstum, Waterfront & Urbane Verdichtung",
+          en: "Growth, Waterfront & Urban Infill",
+        },
+        summary: {
+          de: "Das dynamische Herz des Strukturwandels in Offenbach. Moderne Gewerbekomplexe, urbane Wohnquartiere am Wasser und anspruchsvolle Micro-Apartment-Projekte.",
+          en: "The dynamic core of structural transformation in Offenbach. Contemporary commercial complexes, waterfront residential quarters, and micro-apartment projects.",
+        },
+        focusAreas: [
+          {
+            de: "Neubau von Micro-Apartments, Studentenwohnen und modernen Stadtwohnungen",
+            en: "New builds of micro-apartments, student housing, and contemporary city residences",
+          },
+          {
+            de: "Gewerbliche Umnutzung und Revitalisierung ehemaliger Industriequartiere",
+            en: "Commercial conversion and regeneration of former industrial quarters",
+          },
+          {
+            de: "Nachhaltige Energiekonzepte und Begrünungsvorgaben der Stadt Offenbach",
+            en: "Sustainable energy systems and municipal greening regulations in Offenbach",
+          },
+        ],
+        zoningHighlights: [
+          {
+            de: "Bebauungspläne Kaiserlei und Hafenviertel Offenbach",
+            en: "Kaiserlei and harbour district master plans Offenbach",
+          },
+          {
+            de: "Lärmschutzauflagen und Immissionsschutzgutachten",
+            en: "Acoustic insulation requirements and emission audit compliance",
+          },
+          {
+            de: "Retentions- und Versickerungsnachweise nach WHG",
+            en: "Stormwater retention and drainage engineering proofs",
+          },
+        ],
+      },
+      {
+        id: "offenbach-westend-zentrum",
+        name: {
+          de: "Westend, Stadtzentrum & Mathildenviertel",
+          en: "Westend, City Center & Mathildenviertel",
+        },
+        suburbs: {
+          de: "Westend, Zentrum, Senefelderquartier, Mathildenviertel",
+          en: "Westend, City Center, Senefelderquartier, Mathildenviertel",
+        },
+        badge: {
+          de: "Gründerzeit, Denkmalschutz & Sanierung",
+          en: "Wilhelminian Era, Heritage & Retrofits",
+        },
+        summary: {
+          de: "Traditionsreiche Quartiere mit hoher historischer Bausubstanz. Umfassende Kernsanierungen, Dachaufstockungen und behutsame Nachverdichtungen.",
+          en: "Established quarters characterized by historic architecture. Comprehensive structural restorations, rooftop extensions, and delicate urban infill.",
+        },
+        focusAreas: [
+          {
+            de: "Denkmalgerechte Altbausanierung und behutsame energetische Optimierung",
+            en: "Heritage-compliant restoration and sensitive thermal modernization",
+          },
+          {
+            de: "Aufstockungen und Dachgeschossausbauten zur Schaffung neuen Wohnraums",
+            en: "Vertical rooftop additions and attic conversions for additional living space",
+          },
+          {
+            de: "Nutzungsänderungen von Büro- und Praxisflächen in hochwertigen Wohnraum",
+            en: "Conversions of office and practice space into high-quality apartments",
+          },
+        ],
+        zoningHighlights: [
+          {
+            de: "Erhaltungssatzungen und Ensembleschutz Stadt Offenbach",
+            en: "Conservation statutes and ensemble protection in Offenbach",
+          },
+          {
+            de: "Einfügungsgebot (§ 34 BauGB) im Innenbereich",
+            en: "Contextual insertion requirement (§ 34 BauGB) in built-up areas",
+          },
+          {
+            de: "Statische Nachweise für Holzbalkendecken und Brandwände",
+            en: "Structural engineering verifications for timber joist ceilings and firewalls",
+          },
+        ],
+      },
+      {
+        id: "offenbach-bieber-buergel-waldheim",
+        name: {
+          de: "Bieber, Bürgel, Rumpenheim & Waldheim",
+          en: "Bieber, Bürgel, Rumpenheim & Waldheim",
+        },
+        suburbs: {
+          de: "Bieber, Bürgel, Rumpenheim, Waldheim, Tempelsee",
+          en: "Bieber, Bürgel, Rumpenheim, Waldheim, Tempelsee",
+        },
+        badge: {
+          de: "Attraktives Wohnen im Grünen & Neubau",
+          en: "Green Suburban Living & New Builds",
+        },
+        summary: {
+          de: "Gefragte Wohnlagen für Familien und Projektentwickler im östlichen Offenbacher Raum. Freistehende Einfamilienhäuser, Doppelhäuser und gehobene Wohnanlagen.",
+          en: "Popular residential locations for families and developers in eastern Offenbach. Detached homes, semi-detached houses, and upscale apartment communities.",
+        },
+        focusAreas: [
+          {
+            de: "Neubau moderner KfW-40-Effizienzhäuser und Stadtvillen",
+            en: "Construction of contemporary KfW 40 efficiency homes and villas",
+          },
+          {
+            de: "Geschosswohnungsbau und Mehrfamilienhäuser in gewachsenen Quartieren",
+            en: "Multi-family residential schemes in established neighborhoods",
+          },
+          {
+            de: "Gartenbezogene Architektur und generationengerechte Grundrisse",
+            en: "Garden-oriented architectural design and multi-generational floor plans",
+          },
+        ],
+        zoningHighlights: [
+          {
+            de: "Bebauungspläne Bieber-Waldhof und Bürgel Ost",
+            en: "Master plans Bieber-Waldhof and Bürgel East",
+          },
+          {
+            de: "Baumschutzsatzung der Stadt Offenbach am Main",
+            en: "Tree protection ordinance of the City of Offenbach am Main",
+          },
+          {
+            de: "Abstandsflächenrecht nach Hessischer Bauordnung (HBO)",
+            en: "Setback regulations under Hessian Building Code (HBO)",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: {
+          de: "Was kostet ein Architekt in Offenbach am Main nach der HOAI?",
+          en: "What does an architect cost in Offenbach am Main under HOAI?",
+        },
+        answer: {
+          de: "Die Architektenhonorare richten sich transparent nach den HOAI-Leistungsphasen (1 bis 9) und den anrechenbaren Kosten des Bauvorhabens. Für Wohnungsbau, Micro-Apartments und Sanierungen in Offenbach kalkulieren wir leistungsgerecht nach Honorarzone III oder IV. Sie erhalten vor Projektstart eine verbindliche und transparente Honoraraufstellung.",
+          en: "Architectural fees are structured transparently per HOAI Work Phases (1 to 9) and net construction costs. For residential developments, micro-apartments, and retrofits in Offenbach, we calculate fairly within fee zones III or IV with itemized phase pricing.",
+        },
+      },
+      {
+        question: {
+          de: "Wie lange dauert eine Baugenehmigung beim Bauamt Offenbach?",
+          en: "How long does a building permit take at Offenbach Building Department?",
+        },
+        answer: {
+          de: "Im vereinfachten Baugenehmigungsverfahren nach § 65 HBO liegt die durchschnittliche Bearbeitungszeit beim Bauaufsichtsamt Offenbach am Main bei circa 3 bis 4 Monaten. Durch lückenlose, prüffähige und vorab abgestimmte Bauvorlagen vermeiden wir Verzögerungen und Nachforderungen seitens der Behörde.",
+          en: "Under simplified permit procedures (§ 65 HBO), review times at the Offenbach Building Department typically take 3 to 4 months. By providing complete, verified permit files, we avoid bureaucratic delays and accelerate approvals.",
+        },
+      },
+      {
+        question: {
+          de: "Begleitet Shams Consult auch Nutzungsänderungen und Micro-Apartment-Projekte in Offenbach?",
+          en: "Does Shams Consult manage changes of use and micro-apartment projects in Offenbach?",
+        },
+        answer: {
+          de: "Ja. Die Umnutzung von Bestandsgebäuden in Micro-Apartments, Studentenwohnheime oder gemischte Wohn- und Gewerbeeinheiten ist einer unserer Schwerpunkte im Raum Offenbach und Frankfurt. Wir prüfen vorab das Planungsrecht (§ 34 BauGB), klären den Stellplatzbedarf und führen das Genehmigungsverfahren rechtssicher durch.",
+          en: "Yes. Converting existing properties into micro-apartments, student housing, or mixed-use assets is a core focus in Offenbach and Frankfurt. We evaluate planning legality (§ 34 BauGB), solve parking quotas, and navigate permits securely.",
+        },
+      },
+      {
+        question: {
+          de: "Welche Vorschriften gelten für Bauprojekte im Hafengebiet oder Kaiserlei?",
+          en: "What regulations apply to construction schemes in the harbour area or Kaiserlei?",
+        },
+        answer: {
+          de: "In Entwicklungsgebieten wie dem Hafen Offenbach oder dem Kaiserlei gelten spezifische Bebauungspläne mit detaillierten Festsetzungen zu Schallschutz, Hochwasserschutz, Gebäudehöhen und Außenanlagen. Wir stimmen Entwürfe frühzeitig mit den zuständigen Fachämtern ab, um eine reibungslose Realisierung sicherzustellen.",
+          en: "Development areas like Offenbach Harbour or Kaiserlei are governed by specific zoning plans detailing acoustic insulation, flood prevention, building heights, and site landscaping. We coordinate designs early with municipal specialists to guarantee seamless execution.",
+        },
+      },
     ],
   },
 };
 
 export const regionalLandingPages: Record<string, RegionalLandingPageData> = {
   ...baseRegionalLandingPages,
+  stadtplanung: {
+    ...baseRegionalLandingPages["stadtplanung-hessen"],
+    slug: "stadtplanung",
+    path: "/stadtplanung",
+  },
   ...suburbLandingPages,
 };
