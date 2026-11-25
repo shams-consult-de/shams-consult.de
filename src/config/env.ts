@@ -11,6 +11,7 @@ export const REQUIRED_ENV_VARS = [
   "VITE_FOUNDER_PORTAL_PASSWORD",
   "VITE_MAIL_API_URL",
   "VITE_MAIL_CLIENT_ID",
+  "VITE_GTM_ID",
 ] as const;
 
 export type RequiredEnvVar = (typeof REQUIRED_ENV_VARS)[number];
@@ -68,6 +69,16 @@ export const envConfig = {
     if (!val || typeof val !== "string" || val.trim().length === 0) {
       throw new Error(
         "[FATAL CONFIGURATION ERROR]: Missing required environment variable 'VITE_MAIL_CLIENT_ID'."
+      );
+    }
+    return val.trim();
+  },
+
+  get gtmId(): string {
+    const val = import.meta.env.VITE_GTM_ID;
+    if (!val || typeof val !== "string" || val.trim().length === 0) {
+      throw new Error(
+        "[FATAL CONFIGURATION ERROR]: Missing required environment variable 'VITE_GTM_ID'."
       );
     }
     return val.trim();
