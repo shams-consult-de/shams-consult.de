@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles.css";
 import { validateEnvironment } from "./config/env";
+import { initGTM } from "./lib/analytics";
 
 const rootElement = document.getElementById("root");
 
@@ -76,6 +77,7 @@ if (rootElement) {
       </div>
     );
   } else {
+    initGTM();
     ReactDOM.createRoot(rootElement).render(
       <React.StrictMode>
         <App />
