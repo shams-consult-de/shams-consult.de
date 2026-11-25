@@ -35,6 +35,7 @@ jobs:
           VITE_FOUNDER_PORTAL_PASSWORD: ${{ secrets.VITE_FOUNDER_PORTAL_PASSWORD || vars.VITE_FOUNDER_PORTAL_PASSWORD }}
           VITE_MAIL_API_URL: ${{ secrets.VITE_MAIL_API_URL || vars.VITE_MAIL_API_URL }}
           VITE_MAIL_CLIENT_ID: ${{ secrets.VITE_MAIL_CLIENT_ID || vars.VITE_MAIL_CLIENT_ID }}
+          VITE_GTM_ID: ${{ secrets.VITE_GTM_ID || vars.VITE_GTM_ID }}
         run: npm run build
 
       - name: Deploy Static Files to IONOS via SFTP
